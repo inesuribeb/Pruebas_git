@@ -1,9 +1,15 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css'
 import App from './App.jsx'
 import Root from './Root.jsx'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Sanders from './pages/sanders/Sanders.jsx'
+import Gloverall from './pages/gloverall/Gloverall'
+import Moonstar_jp from './pages/moonstar_jp/Moonstar_jp'
+import IlBussetto from './pages/ilBussetto/IlBussetto'
+import Moonstar_810s from './pages/moonstar_810s/Moonstar_810'
+import ShoesLikePottery from './pages/shoesLikePottery/ShoesLikePottery'
 
 const router = createBrowserRouter([
   {
@@ -12,27 +18,27 @@ const router = createBrowserRouter([
     children: [          
       {
         path: "/sanders",          
-        element: <App />,
+        element: <Sanders />,
       },
       {
         path: "/gloverall",     
-        element: <App />,
+        element: <Gloverall />,
       },
       {
         path: "/moonstar_jp",     
-        element: <App />,
+        element: <Moonstar_jp />,
       },
       {
         path: "/ilbussetto",    
-        element: <App />,
+        element: <IlBussetto />,
       },
       {
         path: "/moonstar_810s",   
-        element: <App />,
+        element: <Moonstar_810s />,
       },
       {
         path: "/shoesLikePottery",  
-        element: <App />,
+        element: <ShoesLikePottery />,
       },
     ],
   },
