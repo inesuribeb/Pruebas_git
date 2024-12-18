@@ -1,13 +1,13 @@
-// routes/Root.jsx
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet, Link, useLocation} from 'react-router-dom';
 
 function Root() {
+ 
+
   return (
     <div>
       <header>
         <nav>
           <ul>
-            {/* <li><Link to="/">Inicio</Link></li> */}
             <li><Link to="/sanders">Sanders</Link></li>
             <li><Link to="/gloverall">Gloverall</Link></li>
             <li><Link to="/moonstar_jp">Moonstar</Link></li>
@@ -25,7 +25,7 @@ function Root() {
       </main>
 
       
-      <footer>© 2024 Swipe Agency</footer>
+      {/* <footer>© 2024 Swipe Agency</footer> */}
     </div>
   );
 }

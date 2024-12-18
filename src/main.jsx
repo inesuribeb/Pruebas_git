@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css'
-import App from './App.jsx'
+import App from './App'
 import Root from './Root.jsx'
 import Sanders from './pages/sanders/Sanders.jsx'
 import Gloverall from './pages/gloverall/Gloverall'
@@ -10,12 +10,17 @@ import Moonstar_jp from './pages/moonstar_jp/Moonstar_jp'
 import IlBussetto from './pages/ilBussetto/IlBussetto'
 import Moonstar_810s from './pages/moonstar_810s/Moonstar_810'
 import ShoesLikePottery from './pages/shoesLikePottery/ShoesLikePottery'
+import Swipe from './components/swipe/Swipe';
 
 const router = createBrowserRouter([
   {
     path: "/",             
     element: <Root />,   
-    children: [          
+    children: [    
+      {
+        index: true, 
+        element: <Swipe />,
+      },       
       {
         path: "/sanders",          
         element: <Sanders />,

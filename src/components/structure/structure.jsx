@@ -1,5 +1,6 @@
 import Carousel from "../carousel/Carousel";
 import Info from "../info/Info";
+import './structure.css'
 
 function Structure({ carouselContent, infoContent }) {
 

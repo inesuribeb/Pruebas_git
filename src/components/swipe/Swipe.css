@@ -1,0 +1,39 @@
+.swipe-page {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.swipe-container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.first-column-swipe {
+    flex: 1;
+    min-width: 45%;
+}
+
+.second-column-swipe {
+    flex: 1;
+    min-width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    margin-top: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .swipe-container {
+        flex-direction: column;
+    }
+    
+    .first-column-swipe,
+    .second-column-swipe {
+        width: 100%;
+        min-width: 100%;
+    }
+}

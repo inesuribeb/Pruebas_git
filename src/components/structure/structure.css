@@ -1,0 +1,32 @@
+.structure-page {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.structure-main {
+    display: flex;
+    gap: 2rem; 
+    padding: 2rem; 
+}
+
+.carousel-section {
+    flex: 1; 
+    min-width: 45%; 
+}
+
+.info-section {
+    flex: 1; 
+    min-width: 45%; 
+}
+
+@media (max-width: 768px) {
+    .structure-main {
+        flex-direction: column;
+    }
+    
+    .carousel-section,
+    .info-section {
+        width: 100%;
+        min-width: 100%;
+    }
+}
