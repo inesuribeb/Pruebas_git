@@ -1,4 +1,5 @@
 import { Outlet, Link, useLocation} from 'react-router-dom';
+import './Root.css'
 
 function Root() {
  
@@ -23,8 +24,6 @@ function Root() {
         <Outlet />
 
       </main>
-
-      
       {/* <footer>© 2024 Swipe Agency</footer> */}
     </div>
   );

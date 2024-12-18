@@ -20,7 +20,7 @@ function MoonstarJp (){
     
     const moonstarJpInfo = {
         logo: "/images/moonstarJp/logo.png",
-        title: "Moonstar Japan",
+        title: "Moonstar Jp",
         origin: "Kurume, Japan",
         socials: [
             {
