@@ -29,7 +29,7 @@ const router = createBrowserRouter([
         element: <Moonstar_jp />,
       },
       {
-        path: "/ilbussetto",    
+        path: "/ilBussetto",    
         element: <IlBussetto />,
       },
       {

@@ -10,7 +10,13 @@ function Structure({ carouselContent, infoContent }) {
                     <Carousel content={carouselContent} />
                 </div>
                 <div className="info-section">
-                    <Info content={infoContent} />
+                    <Info 
+                        logo={infoContent?.logo}
+                        title={infoContent?.title}
+                        origin={infoContent?.origin}
+                        socials={infoContent?.socials}
+                        history={infoContent?.history}
+                    />
                 </div>
             </main>
         </div>
