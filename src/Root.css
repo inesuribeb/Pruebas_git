@@ -1,16 +1,18 @@
 header {
+    border-top: 1px solid black;
+
     position:fixed;
     left: 0px;
     bottom: 0px;
     padding: 1rem 2rem;
     background-color: bisque;
     box-sizing: border-box;
-    height:50px;
+    height:52px;
 
     width:100%
 }
 main {
-    margin-bottom: 50px;
+    margin-bottom: 52px;
 }
 #root {
     flex:1;
@@ -18,9 +20,10 @@ main {
     height: 100%;
 }
 nav ul {
+    /* border-top: 1px solid black; */
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     display: flex;
     gap: 7rem;
     justify-content: center;
@@ -38,6 +41,30 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+.header-swipe {
+    background-color: white;
+}
+
+.header-gloverall {
+    background-color: #B1AA9A;
+}
+.header-sanders {
+    background-color: #867353;
+}
+.header-moonstar {
+    background-color: #B7C0AB;
+}
+.header-ilbussetto {
+    background-color: #A44329;
+}
+.header-moonstar_810s {
+    background-color: #8D887F;
+}
+.header-shoesLikePottery {
+    background-color: #6F818E;
+}
+
 
 @media (max-width: 768px) {
     nav ul {
