@@ -5,7 +5,12 @@ function Root() {
  
 
   return (
-    <div>
+    <>
+      <main>
+        
+        <Outlet />
+
+      </main>
       <header>
         <nav>
           <ul>
@@ -19,13 +24,13 @@ function Root() {
         </nav>
       </header>
 
-      <main>
+      {/* <main>
         
         <Outlet />
 
-      </main>
+      </main> */}
       {/* <footer>© 2024 Swipe Agency</footer> */}
-    </div>
+    </>
   );
 }
 

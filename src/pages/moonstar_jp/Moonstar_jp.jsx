@@ -41,12 +41,11 @@ function MoonstarJp (){
     
     return (
         <>
-            <main className="moonstarJp-page">
                 <Structure 
                     carouselContent={moonstarJpCarousel}
                     infoContent={moonstarJpInfo}
+                    pageClass={"moonstarJp-page"}
                 /> 
-            </main>
         </>
     );
 }

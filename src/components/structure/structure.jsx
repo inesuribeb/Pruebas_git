@@ -2,11 +2,11 @@ import Carousel from "../carousel/Carousel";
 import Info from "../info/Info";
 import './structure.css'
 
-function Structure({ carouselContent, infoContent }) {
+function Structure({ carouselContent, infoContent, pageClass }) {
 
     return (
-        <div className="structure-page">
-            <main className="structure-main">
+        <div className={`${pageClass} structure-page`}>
+            <div className="structure-main">
                 <div className="carousel-section">
                     <Carousel content={carouselContent} />
                 </div>
@@ -19,7 +19,7 @@ function Structure({ carouselContent, infoContent }) {
                         history={infoContent?.history}
                     />
                 </div>
-            </main>
+            </div>
         </div>
     );
 }

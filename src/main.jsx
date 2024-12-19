@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css'
-import App from './App'
+// import App from './App'
 import Root from './Root.jsx'
 import Sanders from './pages/sanders/Sanders.jsx'
 import Gloverall from './pages/gloverall/Gloverall'

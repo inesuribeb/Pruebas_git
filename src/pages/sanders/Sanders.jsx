@@ -41,12 +41,11 @@ function Sanders (){
     
     return (
         <>
-            <main className="sanders-page">
                 <Structure 
                     carouselContent={sandersCarousel}
                     infoContent={sandersInfo}
+                    pageClass={"sanders-page"}
                 /> 
-            </main>
         </>
     );
 }

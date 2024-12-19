@@ -41,12 +41,12 @@ function Moonstar810 (){
     
     return (
         <>
-            <main className="moonstar810-page">
                 <Structure 
                     carouselContent={moonstar810Carousel}
                     infoContent={moonstar810Info}
+                    pageClass={"moonstar810-page"}
+
                 /> 
-            </main>
         </>
     );
 }

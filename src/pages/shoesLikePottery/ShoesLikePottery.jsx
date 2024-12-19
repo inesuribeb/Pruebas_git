@@ -41,12 +41,11 @@ function ShoesLikePottery (){
     
     return (
         <>
-            <main className="shoesLikePottery-page">
                 <Structure 
                     carouselContent={shoesLikePotteryCarousel}
                     infoContent={shoesLikePotteryInfo}
+                    pageClass={"shoesLikePottery-page"}
                 /> 
-            </main>
         </>
     );
 }

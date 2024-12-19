@@ -1,4 +1,5 @@
 import TruncatedAbout from '../buttons/TruncatedAbout';
+import './Info.css'
 
 function Info({ logo, title, origin, socials = [], history }) {
     return (
@@ -9,12 +10,13 @@ function Info({ logo, title, origin, socials = [], history }) {
             <div className="info-container">
 
                 <div className="first-column">
-                    <div className="info-logo">
-                        <img src={logo} alt={title} />
-                    </div>
-
+                    
                     <div className="info-content">
                         <h1>{title}</h1>
+                    </div>
+
+                    <div className="info-logo">
+                        <img src={logo} alt={title} />
                     </div>
 
                     <div className="info-origin">

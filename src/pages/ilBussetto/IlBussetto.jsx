@@ -41,12 +41,11 @@ function IlBussetto (){
     
     return (
         <>
-            <main className="ilBussetto-page">
                 <Structure 
                     carouselContent={ilBussettoCarousel}
                     infoContent={ilBussettoInfo}
+                    pageClass={"ilBussetto-page"}
                 /> 
-            </main>
         </>
     );
 }

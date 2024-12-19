@@ -41,12 +41,11 @@ function Gloverall (){
 
     return (
         <>
-            <main className="gloverall-page">
                 <Structure 
                     carouselContent={gloverallCarousel}
                     infoContent={gloverallInfo}
+                    pageClass={"gloverall-page"}
                 /> 
-            </main>
         </>
     );
 }

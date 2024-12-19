@@ -1,22 +1,29 @@
 .structure-page {
     width: 100%;
-    min-height: 100vh;
+    height: 100%; 
 }
 
 .structure-main {
     display: flex;
-    gap: 2rem; 
-    padding: 2rem; 
+    gap: 0rem; 
+    padding: 0rem;
+    /* height: 96vh;  */
+    box-sizing: border-box;
+
+    height: 100%;
 }
 
 .carousel-section {
     flex: 1; 
     min-width: 45%; 
+    background-color: antiquewhite;
 }
 
 .info-section {
     flex: 1; 
     min-width: 45%; 
+    background-color: aquamarine;
+     overflow-y: scroll;
 }
 
 @media (max-width: 768px) {

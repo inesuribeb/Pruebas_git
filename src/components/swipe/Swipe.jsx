@@ -27,7 +27,7 @@ function Swipe() {
 
     return (
         <div className="swipe-page">
-            <main className="swipe-container">
+            <div className="swipe-container">
                 <div className="first-column-swipe">
                     <Carousel content={swipeCarousel} />
                 </div>
@@ -47,7 +47,7 @@ function Swipe() {
                         <a href="https://www.instagram.com/swipebilbao/" target="_blank">Instagram</a>
                         </div>
                 </div>
-            </main>
+            </div>
         </div>
     );
 }
