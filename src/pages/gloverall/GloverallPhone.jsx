@@ -1,6 +1,8 @@
 function GloverallPhone(){
     return(
-        <div></div>
+        <div>
+            <h1>GLOVERALL</h1>
+        </div>
     )
 }
 

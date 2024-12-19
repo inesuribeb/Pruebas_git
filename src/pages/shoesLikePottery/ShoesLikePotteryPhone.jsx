@@ -1,6 +1,8 @@
 function ShoesLikePotteryPhone(){
     return(
-        <div></div>
+        <div>
+            <h1>SHOES LIKE POTTERY</h1>
+        </div>
     )
 }
 
