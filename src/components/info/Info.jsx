@@ -20,10 +20,12 @@ function Info({ logo, title, origin, socials = [], history }) {
                     </div>
 
                     <div className="info-origin">
+                        <h5>Origin</h5>
                         <p>{origin}</p>
                     </div>
 
                     <div className="info-socials">
+                        <h5>Socials</h5>
                         {socials.map((social, index) => (
                             <a
                                 key={index}
@@ -39,6 +41,7 @@ function Info({ logo, title, origin, socials = [], history }) {
 
                 <div className="second-column">
                     <div className="info-history">
+                        <h5>History</h5>
                         <p>{history}</p>
                     </div>
                 </div>

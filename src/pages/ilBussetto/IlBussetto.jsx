@@ -4,15 +4,15 @@ function IlBussetto (){
     const ilBussettoCarousel = {
         images: [
             {
-                url: "/images/ilBussetto/collection1.jpg",
+                url: "https://i.ibb.co/7KXX6Rn/Captura-de-pantalla-2024-11-15-a-las-21-20.png",
                 description: "Showcase of Il Bussetto's artisanal leather wallets. Photography by Clara Rossi, Milan, Italy."
             },
             {
-                url: "/images/ilBussetto/collection2.jpg",
+                url: "https://i.ibb.co/G22rQcD/Captura-de-pantalla-2024-11-15-a-las-21-21-01.png",
                 description: "Behind the scenes: crafting Il Bussetto's signature leather goods. Workshop in Florence, Italy."
             },
             {
-                url: "/images/ilBussetto/collection3.jpg",
+                url: "https://i.ibb.co/SyMV84H/Captura-de-pantalla-2024-11-15-a-las-21-22.png",
                 description: "Il Bussetto's premium leather accessories displayed in a minimalist editorial shoot."
             }
         ]

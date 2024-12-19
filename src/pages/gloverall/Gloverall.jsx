@@ -4,15 +4,15 @@ function Gloverall (){
     const gloverallCarousel = {
         images: [
             {
-                url: "/images/gloverall/collection1.jpg",
+                url: "https://i.ibb.co/fFDfS29/Captura-de-pantalla-2024-11-15-a-las-20-57-54.png",
                 description: "Photography for the Gloverall 2024 Collection. Shot in London, UK with Sarah Smith and John Doe. Photos by Mark Johnson."
             },
             {
-                url: "/images/gloverall/collection2.jpg",
+                url: "https://i.ibb.co/Yt7Df6K/Captura-de-pantalla-2024-11-15-a-las-20-48-42.png",
                 description: "Behind the scenes of Gloverall Spring Collection. Editorial photography by Mark Johnson."
             },
             {
-                url: "/images/gloverall/collection3.jpg",
+                url: "https://i.ibb.co/1GhqcwH/Captura-de-pantalla-2024-11-15-a-las-20-54-21.png",
                 description: "Gloverall Heritage Collection showcase. Location: Scottish Highlands."
             }
         ]

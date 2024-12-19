@@ -4,15 +4,19 @@ function MoonstarJp (){
     const moonstarJpCarousel = {
         images: [
             {
-                url: "/images/moonstarJp/collection1.jpg",
+                url: "https://i.ibb.co/Gd5QgQ6/158176912-121807179950830-5455296408035075533-n.jpg",
                 description: "Moonstar Japan's classic canvas sneakers displayed in a minimalist studio setting. Photographed by Yuki Nakamura."
             },
             {
-                url: "/images/moonstarJp/collection2.jpg",
+                url: "https://i.ibb.co/Z1KJ4Tf/Captura-de-pantalla-2024-11-15-a-las-21-33-05.png",
                 description: "A close-up of Moonstar Japan's signature vulcanized sole process. Captured at their Kurume factory."
             },
             {
-                url: "/images/moonstarJp/collection3.jpg",
+                url: "https://i.ibb.co/DRLcxvs/Captura-de-pantalla-2024-11-15-a-las-21-30-46.png",
+                description: "Moonstar Japan's latest collection showcased in a traditional Japanese courtyard."
+            },
+            {
+                url: "https://i.ibb.co/58WjwLb/Captura-de-pantalla-2024-11-15-a-las-21-28-23.png",
                 description: "Moonstar Japan's latest collection showcased in a traditional Japanese courtyard."
             }
         ]

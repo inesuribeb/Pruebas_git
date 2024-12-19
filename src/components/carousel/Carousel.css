@@ -1,0 +1,78 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-invisible-prev,
+.carousel-invisible-next {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.carousel-invisible-prev {
+    left: 0;
+    cursor: w-resize;
+}
+
+.carousel-invisible-next {
+    right: 0;
+    cursor: e-resize;
+}
+
+
+.carousel-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.carousel-navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.carousel-info {
+    flex: 1;
+    background-color: red;
+}
+
+.carousel-info p{
+    margin: 0;
+}
+
+.carousel-counter {
+    margin-top: 0.5rem;
+}
+
+.carousel-next-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    /* padding: 0.5rem; */
+}
+
+.carousel-image-container {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

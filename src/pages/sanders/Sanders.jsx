@@ -4,7 +4,7 @@ function Sanders (){
     const sandersCarousel = {
         images: [
             {
-                url: "/images/sanders/collection1.jpg",
+                url: "https://i.ibb.co/dWbJ9mn/Captura-de-pantalla-2024-11-15-a-las-20-18-52.png",
                 description: "Showcase of Sanders' classic brogues in a refined studio setting. Photographed by Edward Clarke."
             },
             {
