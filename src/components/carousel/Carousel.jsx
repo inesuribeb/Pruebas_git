@@ -75,7 +75,8 @@ function Carousel({ content }) {
                     src={images[currentIndex].url}
                     alt={images[currentIndex].description}
                     crossOrigin="anonymous"
-                    onLoad={(e) => handleImageLoad(e.target)}                    ref={imageRef}
+                    onLoad={(e) => handleImageLoad(e.target)}        
+                    ref={imageRef}
                 />
             </div>
 

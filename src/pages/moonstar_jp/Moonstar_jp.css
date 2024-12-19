@@ -1,3 +1,15 @@
 .moonstarJp-page .info-section {
     background-color: #B7C0AB;
 }
+
+.moonstarJp-page .info-section::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 1px;
+    box-shadow: 0 0 60px 90px #B7C0AB;
+    z-index: 1; 
+}
