@@ -5,15 +5,15 @@ function Sanders (){
     const sandersCarousel = {
         images: [
             {
-                url: "https://i.ibb.co/dWbJ9mn/Captura-de-pantalla-2024-11-15-a-las-20-18-52.png",
+                url: "https://i.ibb.co/2S0FgCG/Captura-de-pantalla-2024-11-15-a-las-20-18-32.png",
                 description: "Showcase of Sanders' classic brogues in a refined studio setting. Photographed by Edward Clarke."
             },
             {
-                url: "/images/sanders/collection2.jpg",
+                url: "https://i.ibb.co/dWbJ9mn/Captura-de-pantalla-2024-11-15-a-las-20-18-52.png",
                 description: "Behind the scenes: Sanders' shoemaking process at their factory in Rushden, England."
             },
             {
-                url: "/images/sanders/collection3.jpg",
+                url: "https://i.ibb.co/HpjWSjh/Captura-de-pantalla-2024-11-15-a-las-20-18-04.png",
                 description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
             }
         ]
