@@ -1,13 +1,13 @@
 import TruncatedAbout from '../buttons/TruncatedAbout';
 import './Info.css'
 
-function Info({ logo, title, origin, socials = [], history }) {
+function Info({ logo, title, origin, socials = [], history, brandClass}) {
     return (
         <>
             <div className='intro'>
                 <TruncatedAbout></TruncatedAbout>
             </div>
-            <div className="info-container">
+            <div className={`info-container ${brandClass}`}>
 
                 <div className="first-column">
                     

@@ -1,4 +1,5 @@
 import Structure from "../../components/structure/structure";
+import './Sanders.css'
 
 function Sanders (){
     const sandersCarousel = {

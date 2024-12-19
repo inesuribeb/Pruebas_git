@@ -1,4 +1,5 @@
 import Structure from "../../components/structure/structure";
+import './Gloverall.css'
 
 function Gloverall (){
     const gloverallCarousel = {

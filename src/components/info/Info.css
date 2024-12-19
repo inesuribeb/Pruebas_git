@@ -7,18 +7,21 @@
     display: flex;
     gap: 2rem;
     width: 100%;
+    padding: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 .first-column {
     flex: 1;
     min-width: 45%;
-    background-color: azure;
+    background-color: transparent;
 }
 
 .second-column {
     flex: 1;
     min-width: 45%;
-    background-color: grey;
+    background-color: transparent;
 }
 
 .info-logo img {

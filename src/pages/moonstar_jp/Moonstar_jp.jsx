@@ -1,4 +1,5 @@
 import Structure from "../../components/structure/structure";
+import './Moonstar_jp.css'
 
 function MoonstarJp (){
     const moonstarJpCarousel = {

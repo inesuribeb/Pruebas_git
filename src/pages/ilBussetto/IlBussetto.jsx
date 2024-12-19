@@ -1,4 +1,5 @@
 import Structure from "../../components/structure/structure";
+import './IlBussetto.css'
 
 function IlBussetto (){
     const ilBussettoCarousel = {

@@ -11,12 +11,12 @@ function Swipe() {
     const swipeCarousel = {
         images: [
             {
-                url: "/images/shoesLikePottery/collection1.jpg",
-                description: "Showcase of Shoes Like Pottery sneakers highlighting the unique kiln-firing process. Photographed in Fukuoka, Japan."
+                url: "https://i.ibb.co/wcHTqw7/13557251-143654299390676-624785656-a.jpg",
+                description: ""
             },
             {
                 url: "/images/shoesLikePottery/collection1.jpg",
-                description: "Showcase of Shoes Like Pottery sneakers highlighting the unique kiln-firing process. Photographed in Fukuoka, Japan."
+                description: ""
             }
         ]
     };
@@ -26,6 +26,7 @@ function Swipe() {
     };
 
     return (
+        <>
         <div className="swipe-page">
             <div className="swipe-container">
                 <div className="first-column-swipe">
@@ -49,6 +50,8 @@ function Swipe() {
                 </div>
             </div>
         </div>
+        
+</>
     );
 }
 

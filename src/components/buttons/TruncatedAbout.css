@@ -1,0 +1,29 @@
+.truncated-about {
+    /* background-color: rgb(144, 238, 144); */
+    background-color: transparent;
+    padding: 2rem;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.show-more-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-left: 4px;
+    font: inherit;
+    cursor: pointer;
+    color: black; 
+    display: inline;
+    text-decoration: underline;
+
+}
+
+h3 {
+    display: inline;
+}
+
+.second-column-swipe .truncated-about {
+    margin-bottom: 2rem; /* O el espacio que necesites */
+}

@@ -17,6 +17,7 @@ function Structure({ carouselContent, infoContent, pageClass }) {
                         origin={infoContent?.origin}
                         socials={infoContent?.socials}
                         history={infoContent?.history}
+                        brandClass={pageClass} 
                     />
                 </div>
             </div>

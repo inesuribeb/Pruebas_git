@@ -1,10 +1,31 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import './Carousel.css'
+import { handleImageLoad, updateTextColor } from '../../../public/js/AverageRGB.js';
+import React from 'react';
+
+
 
 function Carousel({ content }) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const images = content.images;
     const length = images.length;
+
+
+    const imageRef = useRef(null);
+    const descriptionRef = useRef(null);
+    const counterRef = useRef(null);
+    const nextButtonRef = useRef(null);
+    useEffect(() => {
+        if (imageRef.current) {
+            updateTextColor(
+                imageRef.current,
+                descriptionRef.current,
+                counterRef.current,
+                nextButtonRef.current
+            );
+        }
+    }, [currentIndex]);
+
 
     const nextSlide = () => {
         setCurrentIndex(currentIndex === length - 1 ? 0 : currentIndex + 1);
@@ -13,6 +34,10 @@ function Carousel({ content }) {
     const prevSlide = () => {
         setCurrentIndex(currentIndex === 0 ? length - 1 : currentIndex - 1);
     };
+
+    React.useEffect(() => {
+        handleImageLoad();
+    }, [currentIndex]);
 
     return (
         <div className="carousel-container">
@@ -46,8 +71,11 @@ function Carousel({ content }) {
                 />
         
                 <img
+                    id="carousel-image"
                     src={images[currentIndex].url}
                     alt={images[currentIndex].description}
+                    crossOrigin="anonymous"
+                    onLoad={(e) => handleImageLoad(e.target)}                    ref={imageRef}
                 />
             </div>
 

@@ -1,4 +1,5 @@
 import Structure from "../../components/structure/structure";
+import './ShoesLikePottery.css'
 
 function ShoesLikePottery (){
     const shoesLikePotteryCarousel = {
