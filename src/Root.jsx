@@ -1,5 +1,5 @@
 import { Outlet, Link, useLocation } from 'react-router-dom';
-import './Root.css'
+import  './Root.css'
 
 function Root() {
   const location = useLocation();
@@ -22,7 +22,7 @@ function Root() {
       case '/shoesLikePottery':
         return 'header-shoesLikePottery';
       default:
-        return '';
+        return 'header-desktop';
     }
   };
 
@@ -33,7 +33,8 @@ function Root() {
         <Outlet />
 
       </main>
-      <header className={getHeaderClass()}>
+      {/* <header className={getHeaderClass()}> */}
+      <header className={`header-desktop ${getHeaderClass()}`}>
         <nav>
           <ul>
             <li><Link to="/sanders">Sanders</Link></li>

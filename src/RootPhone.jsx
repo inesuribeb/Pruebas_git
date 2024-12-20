@@ -1,6 +1,6 @@
 import { Outlet, Link } from 'react-router-dom';
-import SwipePhone from './components/swipe/SwipePhone';
 import './RootPhone.css'
+import DragHandleIcon from "@mui/icons-material/DragHandle";
 
 function RootPhone() {
  
@@ -9,6 +9,7 @@ function RootPhone() {
     <>
       
       <header className="header-mobile">
+        <h1>SWIPE AGENCY</h1>
         <nav className="nav-mobile">
           <ul className="nav-list-mobile">
             <li className="nav-item-mobile"><Link to="/sanders">Sanders</Link></li>

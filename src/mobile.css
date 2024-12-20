@@ -1,0 +1,7 @@
+
+
+/* Si aún así no funciona, añade también: */
+html {
+    height: 100%;
+    overflow-y: auto;
+}

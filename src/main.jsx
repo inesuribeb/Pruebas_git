@@ -1,4 +1,4 @@
-import React, { StrictMode, Suspense } from 'react'
+import React, { StrictMode, Suspense, useEffect } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css'
@@ -6,10 +6,13 @@ import Root from './Root.jsx'
 import RootPhone from './RootPhone.jsx';
 import { useMediaQuery } from 'react-responsive';
 
-// const Root = React.lazy(() => import('./Root.jsx'));
-
 const RootWrapper = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
+
+  useEffect(() => {
+    document.body.className = isMobile ? 'mobile' : 'desktop';
+  }, [isMobile]);
+
   return (
     <Suspense fallback={<div>Loading...</div>}>
       {isMobile ? <RootPhone /> : <Root />}
