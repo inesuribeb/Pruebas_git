@@ -21,7 +21,7 @@ function Moonstar810 (){
     
     const moonstar810Info = {
         logo: "/images/moonstar810/logo.png",
-        title: "Moonstar 810",
+        title: "Moonstar 810s",
         origin: "Kurume, Japan",
         socials: [
             {
@@ -37,7 +37,7 @@ function Moonstar810 (){
                 url: "https://twitter.com/moonstar810"
             }
         ],
-        history: "Founded in 1873, Moonstar is a heritage Japanese footwear brand rooted in the traditions of Kurume, a city renowned for its fine craftsmanship. The Moonstar 810s line represents the perfect fusion of the brand’s century-old expertise and modern, functional design. Known for their vulcanized rubber soles and meticulous attention to detail, Moonstar 810 shoes are versatile, durable, and stylish. Every pair is made with precision in the Kurume factory, ensuring superior quality and comfort. Moonstar continues to innovate while honoring its rich legacy, making it a favorite among footwear enthusiasts worldwide."
+        history: "Founded in 1873, Moonstar is a heritage Japanese footwear brand rooted in the traditions of Kurume, a city renowned for its fine craftsmanship. \n\nThe Moonstar 810s line represents the perfect fusion of the brand’s century-old expertise and modern, functional design. Known for their vulcanized rubber soles and meticulous attention to detail, Moonstar 810 shoes are versatile, durable, and stylish. \n\nEvery pair is made with precision in the Kurume factory, ensuring superior quality and comfort. Moonstar continues to innovate while honoring its rich legacy, making it a favorite among footwear enthusiasts worldwide."
     };
     
     return (

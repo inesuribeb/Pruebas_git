@@ -5,7 +5,7 @@ function Sanders (){
     const sandersCarousel = {
         images: [
             {
-                url: "https://i.ibb.co/2S0FgCG/Captura-de-pantalla-2024-11-15-a-las-20-18-32.png",
+                url: "https://i.ibb.co/9rKrKNm/firstsanders-TRUE.png",
                 description: "Showcase of Sanders' classic brogues in a refined studio setting. Photographed by Edward Clarke."
             },
             {
@@ -37,7 +37,7 @@ function Sanders (){
                 url: "https://twitter.com/sanders_shoes"
             }
         ],
-        history: "Founded in 1873, Sanders & Sanders Ltd. is one of the oldest and most esteemed shoemakers in England. Based in Rushden, Northamptonshire, the heart of British shoemaking, Sanders has a long-standing tradition of producing high-quality, handcrafted footwear. Known for their impeccable craftsmanship, durability, and timeless designs, Sanders shoes have been worn by style icons and professionals alike. From military boots to elegant brogues, every pair embodies the brand's commitment to excellence and heritage. Today, Sanders continues to merge traditional shoemaking techniques with contemporary style, ensuring their place as a staple in modern wardrobes."
+        history: "Founded in 1873, Sanders & Sanders Ltd. is one of the oldest and most esteemed shoemakers in England. Based in Rushden, Northamptonshire, the heart of British shoemaking, Sanders has a long-standing tradition of producing high-quality, handcrafted footwear. \n\nKnown for their impeccable craftsmanship, durability, and timeless designs, Sanders shoes have been worn by style icons and professionals alike. From military boots to elegant brogues, every pair embodies the brand's commitment to excellence and heritage. \n\nToday, Sanders continues to merge traditional shoemaking techniques with contemporary style, ensuring their place as a staple in modern wardrobes."
     };
     
     return (

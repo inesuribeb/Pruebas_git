@@ -8,6 +8,8 @@
     padding-right: 2rem;
     padding-left: 2rem;
     padding-top: 0;
+    white-space: pre-wrap;
+    /* font-family: 'LTAfficherNeue-Subhead'; */
 }
 
 .info-header {
@@ -55,6 +57,7 @@
 
 h5 {
     margin-bottom: 0.5rem;
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {

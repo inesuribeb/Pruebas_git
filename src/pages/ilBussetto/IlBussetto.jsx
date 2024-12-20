@@ -37,7 +37,7 @@ function IlBussetto (){
                 url: "https://twitter.com/ilbussetto"
             }
         ],
-        history: "Established in 2004, Il Bussetto is a celebrated Italian brand known for its impeccable craftsmanship and innovative techniques in leatherworking. The brand takes its name from an ancient leather-polishing tool, reflecting its dedication to preserving traditional methods. Specializing in seamless, hand-dyed leather goods, Il Bussetto combines timeless aesthetics with modern functionality. From wallets to cardholders, every piece is crafted with precision in Tuscany, showcasing the brand's commitment to quality and sustainability. Il Bussetto has earned a global reputation for its unique and durable products, embodying the essence of Italian artistry."
+        history: "Established in 2004, Il Bussetto is a celebrated Italian brand known for its impeccable craftsmanship and innovative techniques in leatherworking. The brand takes its name from an ancient leather-polishing tool, reflecting its dedication to preserving traditional methods. \n\nSpecializing in seamless, hand-dyed leather goods, Il Bussetto combines timeless aesthetics with modern functionality. From wallets to cardholders, every piece is crafted with precision in Tuscany, showcasing the brand's commitment to quality and sustainability. \n\nIl Bussetto has earned a global reputation for its unique and durable products, embodying the essence of Italian artistry."
     };
     
     return (
