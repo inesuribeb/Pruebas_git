@@ -20,7 +20,7 @@ function Sanders (){
     };
     
     const sandersInfo = {
-        logo: "/images/sanders/logo.png",
+        logo: "https://sanders.jp/cdn/shop/files/logo_wh_500x.png?v=1636988252",
         title: "Sanders",
         origin: "Rushden, United Kingdom",
         socials: [

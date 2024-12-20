@@ -5,7 +5,7 @@ function MoonstarJp (){
     const moonstarJpCarousel = {
         images: [
             {
-                url: "https://i.ibb.co/Gd5QgQ6/158176912-121807179950830-5455296408035075533-n.jpg",
+                url: "https://i.ibb.co/BsSr05w/also-image02-2x.jpg",
                 description: "Moonstar Japan's classic canvas sneakers displayed in a minimalist studio setting. Photographed by Yuki Nakamura."
             },
             {
@@ -24,7 +24,7 @@ function MoonstarJp (){
     };
     
     const moonstarJpInfo = {
-        logo: "/images/moonstarJp/logo.png",
+        logo: "https://moonstar-manufacturing.jp/moonstar/wp-content/themes/madeinkurume/img/moonstar_logo.png",
         title: "Moonstar Jp",
         origin: "Kurume, Japan",
         socials: [

@@ -3,6 +3,32 @@
     margin-bottom: 2rem;
 }
 
+
+.logo-wrapper {
+    position: absolute;
+    top: 120px; /* Ajusta según necesites */
+    left: 58%;
+    transform: translateX(-50%);
+    z-index: 10;
+    width: 200px; /* O el ancho que necesites */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; /* Ancho fijo */
+    height: 80px; 
+}
+
+.logo-wrapper img {
+    /* width: 100%;
+    height: auto; */
+
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+
 .info-container {
     width: 100%;
     padding-right: 2rem;
@@ -10,13 +36,20 @@
     padding-top: 0;
     white-space: pre-wrap;
     /* font-family: 'LTAfficherNeue-Subhead'; */
+
+    padding-top: 100px;
+    /* position: relative; */
 }
 
 .info-header {
     display: flex;
     align-items: center;
     gap: 2rem;
-    margin-bottom: 2rem;
+
+    /* height:160px; */
+
+
+    /* margin-bottom: 2rem; */
 }
 
 .info-header img {

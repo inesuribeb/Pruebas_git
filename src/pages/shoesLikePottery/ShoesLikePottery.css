@@ -1,5 +1,6 @@
 .shoesLikePottery-page .info-section {
     background-color: #6F818E;
+    /* background-color: #8D887F; */
 }
 
 .shoesLikePottery-page .info-section::after {
@@ -10,6 +11,6 @@
     transform: translateX(-50%);
     width: 100px;
     height: 1px;
-    box-shadow: 0 0 60px 90px #6F818E;
+    box-shadow: 0 0 60px 90px  #6F818E;
     z-index: 1; 
 }

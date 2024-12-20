@@ -5,11 +5,11 @@ function ShoesLikePottery (){
     const shoesLikePotteryCarousel = {
         images: [
             {
-                url: "/images/shoesLikePottery/collection1.jpg",
+                url: "https://i.ibb.co/2F04S84/38040016.jpg",
                 description: "Showcase of Shoes Like Pottery sneakers highlighting the unique kiln-firing process. Photographed in Fukuoka, Japan."
             },
             {
-                url: "/images/shoesLikePottery/collection2.jpg",
+                url: "https://i.ibb.co/PY8wFwn/86590007-679x1024.jpg",
                 description: "Detail shot of Shoes Like Pottery's signature blue sole and vulcanized construction."
             },
             {
@@ -20,7 +20,7 @@ function ShoesLikePottery (){
     };
     
     const shoesLikePotteryInfo = {
-        logo: "/images/shoesLikePottery/logo.png",
+        logo: "https://shoeslikepottery.com/en/pls-en/wp-content/themes/ktwd/img/slp-logo-b.svg",
         title: "Shoes Like Pottery",
         origin: "Kurume, Japan",
         socials: [

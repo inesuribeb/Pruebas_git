@@ -5,22 +5,23 @@ function Moonstar810 (){
     const moonstar810Carousel = {
         images: [
             {
-                url: "/images/moonstar810/collection1.jpg",
+                url: "https://i.ibb.co/2Njbvqh/hym.png",
                 description: "Editorial shoot featuring Moonstar 810 sneakers in an urban landscape. Location: Tokyo, Japan."
             },
             {
-                url: "/images/moonstar810/collection2.jpg",
+                url: "https://i.ibb.co/4Z29LGH/jt.png",
                 description: "Showcase of the Moonstar 810 collection blending heritage and modern design. Photographed by Kenji Tanaka."
             },
             {
-                url: "/images/moonstar810/collection3.jpg",
+                url: "https://i.ibb.co/MPPkHJd/sdv.png",
                 description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
             }
         ]
     };
     
     const moonstar810Info = {
-        logo: "/images/moonstar810/logo.png",
+        logo: "https://and-flow.jp/wp-content/uploads/2024/08/13196_sub1.png",
+        // logo: "https://www.urban-research.tw/special/201211-moonstar/images/logo-810s.svg",
         title: "Moonstar 810s",
         origin: "Kurume, Japan",
         socials: [

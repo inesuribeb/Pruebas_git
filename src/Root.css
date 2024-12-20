@@ -173,7 +173,8 @@ nav a:hover {
     /* background-color: #6F818E; */
 }
 .header-shoesLikePottery nav a {
-    color: #9CABB5;
+    /* color: #9CABB5; */
+    color: #9CABB5; 
 }
 
 @media (max-width: 768px) {
