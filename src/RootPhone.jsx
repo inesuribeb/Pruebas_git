@@ -40,7 +40,7 @@ function RootPhone() {
   return (
     <>
       <header className="header-mobile">
-        <h1>SWIPE AGENCY</h1>
+        <h1 className="main-title">SWIPE AGENCY</h1>
 
         <div className="menu-icon">
           {isMenuOpen ? (
@@ -59,10 +59,11 @@ function RootPhone() {
 
         {isMenuOpen && (
           <nav className={`nav-mobile ${isClosing ? 'slide-up' : 'slide-down'}`}>
+            <Link to="/" className="nav-title" onClick={handleNavClick}>SWIPE AGENCY</Link>
+
             {showContent && (
               <>
                 <ul className={`nav-list-mobile ${isClosing ? 'fade-out' : 'fade-in'}`}>
-                  <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/">Swipe</Link></li>
                   <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/sanders">Sanders</Link></li>
                   <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/gloverall">Gloverall</Link></li>
                   <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/moonstar_jp">Moonstar</Link></li>

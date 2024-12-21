@@ -36,15 +36,40 @@
   }
 }
 
-.header-mobile h1 {
+@keyframes titleDrop {
+  0% {
+      transform: translateY(0); 
+      opacity: 0;
+  }
+  100% {
+      transform: translateY(3.5rem);  
+      opacity: 1;
+  }
+}
+
+.header-mobile .main-title {
     margin: 0;
     font-size: 1.2rem;
+
+    position:relative;
  }
 
+ .nav-title {
+  position: absolute;
+  font-size: 1.2rem;
+  margin: 0;
+  left: 1rem;
+  animation: titleDrop 1s ease-out forwards;
+  text-decoration: none; 
+  color: black; 
+  font-weight: bold; 
+
+  top: var(--header-title-position, 1rem); 
+}
+
+
+
 .header-mobile {
-  position: relative;
-
-
   position: fixed; 
   top: 0;
   left: 0;
@@ -64,7 +89,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   opacity: 1;
 }
 
@@ -83,8 +107,7 @@
   z-index: 1000;
   display: flex;
   flex-direction: column;
-  padding: 100px 20px 40px 20px;
-
+  padding: 130px 20px 40px 20px;
   opacity: 1;
 }
 
@@ -103,7 +126,6 @@
   padding: 0;
   margin: 0;
   text-align: left;
-
   opacity: 0;
 }
 
@@ -131,7 +153,6 @@
   margin: 0;
   padding-top: 100px;
   margin-top: 0px;
-
   opacity: 0;
 }
 
