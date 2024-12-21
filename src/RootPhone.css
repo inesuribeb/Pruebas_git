@@ -1,42 +1,80 @@
-/* .header-mobile {
-background-color: aqua;
-}
-
-.nav-mobile ul {
-    background-color: aqua;
-} */
-
-.header-mobile {
-    padding: 1rem;
- }
- 
- .nav-mobile ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column; /* Esto hace que los elementos se apilen verticalmente */
-    gap: 1rem; /* Espacio entre elementos */
-  }
-  
-  .nav-mobile li {
-    display: block; /* En lugar de inline */
-    padding: 0.5rem 0;
-  }
-  
-  /* O si prefieres un enfoque más simple */
-  .nav-mobile li {
-    display: block;
-    margin-bottom: 1rem;
-  }
-  
-  .nav-mobile a {
-    text-decoration: none;
-    color: black;
-  }
- 
- /* Para el título */
- .header-mobile h1 {
+.header-mobile h1 {
     margin: 0 0 1rem 0;
     font-size: 1.2rem;
  }
+
+.header-mobile {
+  position: relative;
+}
+
+.menu-icon {
+  cursor: pointer;
+  position: fixed; 
+  right: 1rem;
+  top: 1rem;
+  z-index: 2000; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.nav-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #DBDED5;
+  z-index: 1000;
+
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 100px 20px 40px 20px;
+
+}
+
+.nav-mobile.open {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.nav-list-mobile {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.nav-item-mobile {
+  margin: 1rem 0;
+}
+
+.nav-item-mobile a {
+  text-decoration: none;
+  color: black; 
+  font-size: 1.4rem;
+}
+
+.second-nav-list-mobile {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 100px;
+  margin-top: 0px;
+}
+
+.second-nav-item-mobile a {
+  text-decoration: none;
+  color: black; 
+  font-size: 1rem;
+}
