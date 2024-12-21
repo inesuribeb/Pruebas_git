@@ -1,7 +1,9 @@
-function Moonstar_jpPhone(){
-    return(
+import Logo from '../../components/phone/logo/Logo'
+
+function Moonstar_jpPhone() {
+    return (
         <div>
-            <h1>MOONSTAR JP</h1>
+            <Logo url="https://moonstar-manufacturing.jp/moonstar/wp-content/themes/madeinkurume/img/moonstar_logo.png" />
         </div>
     )
 }

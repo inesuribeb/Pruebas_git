@@ -1,7 +1,9 @@
-function ShoesLikePotteryPhone(){
-    return(
+import Logo from '../../components/phone/logo/Logo'
+
+function ShoesLikePotteryPhone() {
+    return (
         <div>
-            <h1>SHOES LIKE POTTERY</h1>
+            <Logo url="https://shoeslikepottery.com/en/pls-en/wp-content/themes/ktwd/img/slp-logo-b.svg" />
         </div>
     )
 }

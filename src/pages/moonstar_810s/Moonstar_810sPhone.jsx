@@ -1,7 +1,9 @@
-function Moonstar_810sPhone(){
-    return(
+import Logo from '../../components/phone/logo/Logo'
+
+function Moonstar_810sPhone() {
+    return (
         <div>
-            <h1>MOONSTAR 810s</h1>
+            <Logo url="https://and-flow.jp/wp-content/uploads/2024/08/13196_sub1.png" />
         </div>
     )
 }

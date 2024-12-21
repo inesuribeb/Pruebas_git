@@ -1,7 +1,9 @@
-function SandersPhone(){
-    return(
+import Logo from '../../components/phone/logo/Logo'
+
+function SandersPhone() {
+    return (
         <div>
-            <h1>SANDERS</h1>
+            <Logo url="https://www.sanders-uk.com/images/modules/promo_units/1623656432-53412900.png" />
         </div>
     )
 }
