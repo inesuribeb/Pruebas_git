@@ -8,22 +8,27 @@ import { useState, useEffect } from 'react';
 function RootPhone() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showContent, setShowContent] = useState(false);
+  const [isClosing, setIsClosing] = useState(false);
 
-  const toggleMenu = () => {
-    if (!isMenuOpen) {
-      setIsMenuOpen(true);
-      setTimeout(() => {
-        setShowContent(true);
-      }, 500);
-    } else {
-      setShowContent(false);
+  const openMenu = () => {
+    setIsMenuOpen(true);
+    setIsClosing(false);
+    setTimeout(() => {
+      setShowContent(true);
+    }, 500);
+  };
+
+  const closeMenu = () => {
+    setIsClosing(true);
+    setShowContent(false);
+    setTimeout(() => {
       setIsMenuOpen(false);
-    }
+      setIsClosing(false);
+    }, 500);
   };
 
   const handleNavClick = () => {
-    setShowContent(false);
-    setIsMenuOpen(false);
+    closeMenu();
   };
 
   useEffect(() => {
@@ -37,27 +42,26 @@ function RootPhone() {
       <header className="header-mobile">
         <h1>SWIPE AGENCY</h1>
 
-
-        <div className="menu-icon" onClick={toggleMenu}>
+        <div className="menu-icon">
           {isMenuOpen ? (
             <CloseIcon
-              className={`close-icon ${showContent ? 'show' : ''}`}
+              className={`menu-icon-close ${isClosing ? 'fade-out' : 'fade-in'}`}
               sx={{ fontSize: 24, color: 'black' }}
+              onClick={closeMenu}
             />
           ) : (
             <DragHandleIcon
               sx={{ fontSize: 24, color: 'black' }}
+              onClick={openMenu}
             />
           )}
         </div>
 
         {isMenuOpen && (
-
-          <nav className={`nav-mobile ${isMenuOpen ? 'open' : ''}`}>
-
+          <nav className={`nav-mobile ${isClosing ? 'slide-up' : 'slide-down'}`}>
             {showContent && (
               <>
-                <ul className="nav-list-mobile">
+                <ul className={`nav-list-mobile ${isClosing ? 'fade-out' : 'fade-in'}`}>
                   <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/">Swipe</Link></li>
                   <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/sanders">Sanders</Link></li>
                   <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/gloverall">Gloverall</Link></li>
@@ -67,7 +71,7 @@ function RootPhone() {
                   <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/shoesLikePottery">Shoes Like Pottery</Link></li>
                 </ul>
 
-                <ul className="second-nav-list-mobile">
+                <ul className={`second-nav-list-mobile ${isClosing ? 'fade-out' : 'fade-in'}`}>
                   <li className="second-nav-item-mobile"><Link onClick={handleNavClick} to="/">About us</Link></li>
                   <li className="second-nav-item-mobile"><Link onClick={handleNavClick} to="/sanders">Contact</Link></li>
                 </ul>
