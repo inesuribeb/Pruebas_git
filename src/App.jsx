@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import { Outlet } from 'react-router'
 import viteLogo from '/vite.svg'
 import './App.css'
+import LoadingBar from './components/loadingBar/loadingBar'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
       <div>
+      <LoadingBar /> 
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>

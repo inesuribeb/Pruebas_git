@@ -1,7 +1,9 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState } from 'react';
+// import { useState, useRef, useEffect } from 'react';
+
 import './Carousel.css'
-import { handleImageLoad, updateTextColor } from '../../../public/js/AverageRGB.js';
-import React from 'react';
+// import { handleImageLoad, updateTextColor } from '../../../public/js/AverageRGB.js';
+// import React from 'react';
 
 
 
@@ -11,20 +13,20 @@ function Carousel({ content }) {
     const length = images.length;
 
 
-    const imageRef = useRef(null);
-    const descriptionRef = useRef(null);
-    const counterRef = useRef(null);
-    const nextButtonRef = useRef(null);
-    useEffect(() => {
-        if (imageRef.current) {
-            updateTextColor(
-                imageRef.current,
-                descriptionRef.current,
-                counterRef.current,
-                nextButtonRef.current
-            );
-        }
-    }, [currentIndex]);
+    // const imageRef = useRef(null);
+    // const descriptionRef = useRef(null);
+    // const counterRef = useRef(null);
+    // const nextButtonRef = useRef(null);
+    // useEffect(() => {
+    //     if (imageRef.current) {
+    //         updateTextColor(
+    //             imageRef.current,
+    //             descriptionRef.current,
+    //             counterRef.current,
+    //             nextButtonRef.current
+    //         );
+    //     }
+    // }, [currentIndex]);
 
 
     const nextSlide = () => {
@@ -35,9 +37,9 @@ function Carousel({ content }) {
         setCurrentIndex(currentIndex === 0 ? length - 1 : currentIndex - 1);
     };
 
-    React.useEffect(() => {
-        handleImageLoad();
-    }, [currentIndex]);
+    // React.useEffect(() => {
+    //     handleImageLoad();
+    // }, [currentIndex]);
 
     return (
         <div className="carousel-container">
@@ -74,9 +76,9 @@ function Carousel({ content }) {
                     id="carousel-image"
                     src={images[currentIndex].url}
                     alt={images[currentIndex].description}
-                    crossOrigin="anonymous"
-                    onLoad={(e) => handleImageLoad(e.target)}        
-                    ref={imageRef}
+                    // crossOrigin="anonymous"
+                    // onLoad={(e) => handleImageLoad(e.target)}        
+                    // ref={imageRef}
                 />
             </div>
 

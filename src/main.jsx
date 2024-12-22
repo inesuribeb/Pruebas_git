@@ -5,6 +5,10 @@ import './index.css'
 import Root from './Root.jsx'
 import RootPhone from './RootPhone.jsx';
 import { useMediaQuery } from 'react-responsive';
+import LoadingBar from './components/loadingBar/LoadingBar'
+import 'nprogress/nprogress.css';
+
+import FadeInContent from './components/loadingBar/FadeInContent.jsx';
 
 const RootWrapper = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
@@ -14,9 +18,12 @@ const RootWrapper = () => {
   }, [isMobile]);
 
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      {isMobile ? <RootPhone /> : <Root />}
-    </Suspense>
+    <>
+    <LoadingBar />
+      <Suspense fallback={<div>Loading...</div>}>
+        {isMobile ? <RootPhone /> : <Root />}
+      </Suspense>
+    </>
   );
 };
 
@@ -38,11 +45,23 @@ const MobileShoesLikePottery = React.lazy(() => import('./pages/shoesLikePottery
 
 const ResponsiveComponent = ({ MobileVersion, DesktopVersion }) => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
+  // return (
+  //   <Suspense fallback={<div>Loading...</div>}>
+  //     <FadeInContent>
+  //     {isMobile ? <MobileVersion /> : <DesktopVersion />}
+  //     </FadeInContent>
+  //   </Suspense>
+  // );
   return (
     <Suspense fallback={<div>Loading...</div>}>
-      {isMobile ? <MobileVersion /> : <DesktopVersion />}
+      <FadeInContent>
+        <Suspense fallback={<div>Loading content...</div>}>
+          {isMobile ? <MobileVersion /> : <DesktopVersion />}
+        </Suspense>
+      </FadeInContent>
     </Suspense>
   );
+
 };
 
 
@@ -108,5 +127,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
+    {/* <AppWrapper /> */}
   </StrictMode>
 );

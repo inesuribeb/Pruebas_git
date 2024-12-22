@@ -4,6 +4,8 @@ import DragHandleIcon from "@mui/icons-material/DragHandle";
 import CloseIcon from '@mui/icons-material/Close';
 import { useState, useEffect } from 'react';
 
+import FadeInContent from './components/loadingBar/FadeInContent.jsx';
+
 
 function RootPhone() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -83,7 +85,9 @@ function RootPhone() {
       </header>
 
       <main className="main-mobile">
-        <Outlet />
+      <FadeInContent>
+          <Outlet />
+        </FadeInContent>
       </main>
     </>
   );

@@ -1,6 +1,9 @@
 import { Outlet, Link, useLocation } from 'react-router-dom';
 import  './Root.css'
 
+import FadeInContent from './components/loadingBar/FadeInContent.jsx';
+
+
 function Root() {
   const location = useLocation();
 
@@ -30,7 +33,9 @@ function Root() {
     <>
       <main>
 
-        <Outlet />
+      <FadeInContent>
+          <Outlet />
+        </FadeInContent>
 
       </main>
       {/* <header className={getHeaderClass()}> */}
