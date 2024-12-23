@@ -15,7 +15,7 @@ function Swipe() {
                 description: ""
             },
             {
-                url: "/images/shoesLikePottery/collection1.jpg",
+                url: "https://i.ibb.co/1MQB1vb/swipe-Blue-Logo.png",
                 description: ""
             }
         ]

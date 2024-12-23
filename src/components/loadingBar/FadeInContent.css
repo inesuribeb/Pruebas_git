@@ -14,12 +14,12 @@
     transform: translateY(0);
     visibility: visible;
 
-    animation: fadeIn 0.5s ease-out forwards; /* Animación de entrada */
+    animation: fadeIn 0.5s ease-out forwards;
 
 }
 
 .fade-content.hidden {
-    animation: fadeOut 0.5s ease-in forwards; /* Animación de salida */
+    animation: fadeOut 0.5s ease-in forwards; 
 }
 
 @keyframes fadeIn {

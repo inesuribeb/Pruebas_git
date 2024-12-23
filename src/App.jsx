@@ -3,7 +3,6 @@ import reactLogo from './assets/react.svg'
 import { Outlet } from 'react-router'
 import viteLogo from '/vite.svg'
 import './App.css'
-import LoadingBar from './components/loadingBar/loadingBar'
 
 function App() {
   const [count, setCount] = useState(0)

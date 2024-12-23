@@ -41,12 +41,6 @@ function Root() {
       <header className={`header-desktop ${getHeaderClass()}`}>
         <nav>
           <ul>
-            {/* <li><Link to="/sanders">Sanders</Link></li>
-            <li><Link to="/gloverall">Gloverall</Link></li>
-            <li><Link to="/moonstar_jp">Moonstar</Link></li>
-            <li><Link to="/ilBussetto">Il Bussetto</Link></li>
-            <li><Link to="/moonstar_810s">Moonstar 810s</Link></li>
-            <li><Link to="/shoesLikePottery">Shoes Like Pottery</Link></li> */}
             <li className="nav-item">
               <Link to="/sanders">Sanders</Link>
               <div className="hover-image">

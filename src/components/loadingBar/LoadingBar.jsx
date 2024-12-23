@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import NProgress from 'nprogress';
 import './LoadingBar.css'
 
-NProgress.configure({ 
+NProgress.configure({
   showSpinner: false,
   minimum: 0.3,
   speed: 800,
@@ -18,7 +18,6 @@ function LoadingBar() {
   useEffect(() => {
     NProgress.start();
 
-    // Simulamos un tiempo de carga
     const timer = setTimeout(() => {
       NProgress.done();
     }, 1000);

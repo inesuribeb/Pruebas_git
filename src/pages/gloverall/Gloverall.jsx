@@ -6,7 +6,8 @@ function Gloverall (){
         images: [
             {
                 url: "https://i.ibb.co/VwSFHHr/Captura-de-pantalla-2024-11-15-a-las-20-57-54-copia.png",
-                description: "Photography for the Gloverall 2024 Collection. Shot in London, UK with Sarah Smith and John Doe. Photos by Mark Johnson."
+                description: "Photography for the Gloverall 2024 Collection. Shot in London, UK with Sarah Smith and John Doe. Photos by Mark Johnson.",
+                textColor: "dark" 
             },
             {
                 url: "https://i.ibb.co/Yt7Df6K/Captura-de-pantalla-2024-11-15-a-las-20-48-42.png",

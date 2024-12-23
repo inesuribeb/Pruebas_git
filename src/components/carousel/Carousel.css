@@ -29,8 +29,7 @@
 .carousel-image-container img {
     width: 100%;
     height: 100%;
-    /* object-fit: cover; */
-    object-fit: cover;      /* Hace que la imagen cubra todo el espacio, manteniendo su proporción */
+    object-fit: cover;      
     object-position: center;
     position: relative;
     z-index: 0;
@@ -45,8 +44,22 @@
     display: flex;
     justify-content: space-between;
     padding-left: 2rem;
-    /* align-items: flex-start; */
-    /* align-items: center; */
+}
+
+.carousel-navigation.dark {
+    color: white;
+}
+
+.carousel-navigation.dark .carousel-next-button {
+    color: white;
+}
+
+.carousel-navigation.light {
+    color: black;
+}
+
+.carousel-navigation.light .carousel-next-button {
+    color: black;
 }
 
 .carousel-info {
@@ -62,7 +75,6 @@
 .carousel-info p{
     margin: 0;
     width:100%;
-    /* padding-right: 1rem; */
 }
 
 .carousel-counter {
@@ -88,9 +100,3 @@
     height: 100%;
 }
 
-
-/* .carousel-image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-} */

@@ -1,15 +1,12 @@
 .swipe-page {
     width: 100%;
     height: 100%; 
-    /* padding-bottom: 52px; */
 }
 
 .swipe-container {
     display: flex;
     box-sizing: border-box;
     height: 100%;
- 
-
 }
 
 .first-column-swipe {
@@ -24,7 +21,7 @@
     flex-direction: column;
     background-color: #E8E3D7;
     overflow-y: scroll;
-    padding-bottom: 52px; /*pensar*/
+    padding-bottom: 52px; 
 }
 
 .second-column-swipe p {
@@ -36,6 +33,7 @@
     width:90%;
     line-height: 1.8;
 }
+
 .contact {
     margin-top: auto;
 }
@@ -52,8 +50,7 @@
     text-decoration: underline;
     text-align: left;
     background-color: transparent;
-    width: fit-content; /* Hace que el botón se ajuste al contenido */
-
+    width: fit-content;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-weight: 300;
     font-size: 15px;

@@ -6,7 +6,8 @@ function Sanders (){
         images: [
             {
                 url: "https://i.ibb.co/9rKrKNm/firstsanders-TRUE.png",
-                description: "Showcase of Sanders' classic brogues in a refined studio setting. Photographed by Edward Clarke."
+                description: "Showcase of Sanders' classic brogues in a refined studio setting. Photographed by Edward Clarke.",
+                textColor: "dark" 
             },
             {
                 url: "https://i.ibb.co/dWbJ9mn/Captura-de-pantalla-2024-11-15-a-las-20-18-52.png",

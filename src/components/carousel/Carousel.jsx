@@ -43,7 +43,9 @@ function Carousel({ content }) {
 
     return (
         <div className="carousel-container">
-            <div className="carousel-navigation">
+            {/* <div className="carousel-navigation"> */}
+            <div className={`carousel-navigation ${images[currentIndex].textColor}`}>
+
 
                 <div className="carousel-info">
                     <p>{images[currentIndex].description}</p>

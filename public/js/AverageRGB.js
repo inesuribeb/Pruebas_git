@@ -1,33 +1,34 @@
-export function getAverageRGB(imageElement) {
-    if (!imageElement || !imageElement.complete || imageElement.naturalWidth === 0) {
-        console.error("Image element is not valid or not fully loaded.");
-        return { r: 0, g: 0, b: 0 }; // Devuelve un color predeterminado
+
+
+function getAverageRGB(imgEl) {
+    if (!imgEl || !imgEl.complete || !imgEl.naturalWidth) {
+        return null;
     }
 
-    const canvas = document.createElement("canvas");
-    canvas.width = imageElement.width;
-    canvas.height = imageElement.height;
+    const blockSize = 5;
+    const canvas = document.createElement('canvas');
+    const context = canvas.getContext && canvas.getContext('2d');
 
-    const context = canvas.getContext("2d");
-    context.drawImage(imageElement, 0, 0, canvas.width, canvas.height);
-
-    const imageData = context.getImageData(0, 0, canvas.width, canvas.height);
-    const data = imageData.data;
-
-    let r = 0, g = 0, b = 0;
-
-    for (let i = 0; i < data.length; i += 4) {
-        r += data[i];
-        g += data[i + 1];
-        b += data[i + 2];
+    if (!context) {
+        return null;
     }
 
-    const pixelCount = data.length / 4;
-    return {
-        r: Math.floor(r / pixelCount),
-        g: Math.floor(g / pixelCount),
-        b: Math.floor(b / pixelCount),
-    };
+    const height = canvas.height = imgEl.naturalHeight || imgEl.offsetHeight || imgEl.height;
+    const width = canvas.width = imgEl.naturalWidth || imgEl.offsetWidth || imgEl.width;
+
+    if (!width || !height) {
+        return null;
+    }
+
+    try {
+        context.drawImage(imgEl, 0, 0);
+        const data = context.getImageData(0, 0, width, height).data;
+        const imageData = context.getImageData(0, 0, canvas.width, canvas.height);
+
+    } catch (error) {
+        console.error('Error getting image data:', error);
+        return null;
+    }
 }
 
 export function getLuminance({ r, g, b }) {
