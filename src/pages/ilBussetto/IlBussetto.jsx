@@ -13,7 +13,7 @@ function IlBussetto (){
                 description: "Behind the scenes: crafting Il Bussetto's signature leather goods. Workshop in Florence, Italy."
             },
             {
-                url: "https://i.ibb.co/SyMV84H/Captura-de-pantalla-2024-11-15-a-las-21-22.png",
+                url: "https://i.ibb.co/wWmN62Z/try.png",
                 description: "Il Bussetto's premium leather accessories displayed in a minimalist editorial shoot."
             }
         ]
