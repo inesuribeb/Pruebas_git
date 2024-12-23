@@ -1,4 +1,6 @@
-import { useState, useRef } from 'react';
+
+
+import { useState, useRef, useEffect } from 'react';
 import './Carrusel.css';
 
 function Carrusel({ content }) {
@@ -22,7 +24,7 @@ function Carrusel({ content }) {
 
     const onTouchEnd = () => {
         if (!touchStart || !touchEnd) return;
-        
+
         const distance = touchStart - touchEnd;
         const isLeftSwipe = distance > minSwipeDistance;
         const isRightSwipe = distance < -minSwipeDistance;
@@ -36,49 +38,60 @@ function Carrusel({ content }) {
     };
 
     const nextSlide = () => {
-        setCurrentIndex(currentIndex === length - 1 ? 0 : currentIndex + 1);
+        setCurrentIndex((prevIndex) => {
+            if (prevIndex === length - 1) {
+                return 0;
+            }
+            return prevIndex + 1;
+        });
     };
 
     const prevSlide = () => {
-        setCurrentIndex(currentIndex === 0 ? length - 1 : currentIndex - 1);
+        setCurrentIndex((prevIndex) => {
+            if (prevIndex === 0) {
+                return length - 1;
+            }
+            return prevIndex - 1;
+        });
     };
 
     return (
         <div className="carrusel-container-mobile">
-            <div 
+            <div
                 className="carrusel-track"
                 onTouchStart={onTouchStart}
                 onTouchMove={onTouchMove}
                 onTouchEnd={onTouchEnd}
                 ref={carruselRef}
                 style={{
-                    transform: `translateX(-${currentIndex * 90}%)`,
+                    transform: `translateX(-${currentIndex * 80}%)`,
                 }}
             >
                 {images.map((image, index) => (
-                    <div 
-                        key={index} 
+                    <div
+                        key={index}
                         className={`carrusel-slide ${index === currentIndex ? 'active' : ''}`}
                     >
-                        <img 
-                            src={image.url} 
+                        <img
+                            src={image.url}
                             alt={image.description}
                             className="carrusel-image"
                         />
                     </div>
                 ))}
             </div>
-            
+
             <div className="carrusel-info">
-                <p className={images[currentIndex].textColor}>
-                    {images[currentIndex].description}
-                </p>
                 <div className="carrusel-counter">
                     {currentIndex + 1} / {length}
                 </div>
+                <p className={images[currentIndex].textColor}>
+                    {images[currentIndex].description}
+                </p>
             </div>
         </div>
     );
 }
 
 export default Carrusel;
+
