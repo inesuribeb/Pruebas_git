@@ -5,7 +5,7 @@ function IlBussetto (){
     const ilBussettoCarousel = {
         images: [
             {
-                url: "https://i.ibb.co/7KXX6Rn/Captura-de-pantalla-2024-11-15-a-las-21-20.png",
+                url: "https://i.ibb.co/z86MH51/Captura-de-pantalla-2024-11-15-a-las-21-20.png",
                 description: "Showcase of Il Bussetto's artisanal leather wallets. Photography by Clara Rossi, Milan, Italy."
             },
             {

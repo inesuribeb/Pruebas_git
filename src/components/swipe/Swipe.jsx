@@ -11,7 +11,7 @@ function Swipe() {
     const swipeCarousel = {
         images: [
             {
-                url: "https://i.ibb.co/wcHTqw7/13557251-143654299390676-624785656-a.jpg",
+                url: "https://i.ibb.co/Y0yHTnL/swipe-Logo.png",
                 description: ""
             },
             {

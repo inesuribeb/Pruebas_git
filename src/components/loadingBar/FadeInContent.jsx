@@ -7,7 +7,7 @@ const FadeInContent = ({ children }) => {
     useEffect(() => {
       const timer = setTimeout(() => {
         setIsVisible(true);
-      }, 400);
+      }, 5);
   
       return () => {
         clearTimeout(timer);

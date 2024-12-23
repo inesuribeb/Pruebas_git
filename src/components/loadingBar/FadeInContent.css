@@ -1,4 +1,4 @@
-/* .fade-content {
+.fade-content {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
@@ -13,16 +13,44 @@
     opacity: 1;
     transform: translateY(0);
     visibility: visible;
-} */
 
+    animation: fadeIn 0.5s ease-out forwards; /* Animación de entrada */
 
+}
+
+.fade-content.hidden {
+    animation: fadeOut 0.5s ease-in forwards; /* Animación de salida */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
+ 
 
 
 
 
 
 /* FadeInContent.css */
-.fade-container {
+/* .fade-container {
     position: relative;
     width: 100%;
     height: 100%;
@@ -49,4 +77,4 @@
   
   .fade-in.transitioning {
     opacity: 0;
-  }
+  } */
