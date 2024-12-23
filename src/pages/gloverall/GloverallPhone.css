@@ -1,0 +1,6 @@
+.gloverall-phone-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* O el espacio que prefieras entre elementos */
+    padding: 20px;
+}
