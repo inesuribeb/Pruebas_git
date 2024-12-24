@@ -2,8 +2,10 @@
 
 import { useState, useRef, useEffect } from 'react';
 import './Carrusel.css';
+import { Link } from 'react-router-dom';
 
-function Carrusel({ content }) {
+
+function Carrusel({ content, className, withLinks }) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [touchStart, setTouchStart] = useState(null);
     const [touchEnd, setTouchEnd] = useState(null);
@@ -56,42 +58,62 @@ function Carrusel({ content }) {
     };
 
     return (
-        <div className="carrusel-container-mobile">
-            <div
-                className="carrusel-track"
-                onTouchStart={onTouchStart}
-                onTouchMove={onTouchMove}
-                onTouchEnd={onTouchEnd}
-                ref={carruselRef}
-                style={{
-                    transform: `translateX(-${currentIndex * 80}%)`,
-                }}
-            >
-                {images.map((image, index) => (
-                    <div
-                        key={index}
-                        className={`carrusel-slide ${index === currentIndex ? 'active' : ''}`}
-                    >
-                        <img
-                            src={image.url}
-                            alt={image.description}
-                            className="carrusel-image"
-                        />
-                    </div>
-                ))}
-            </div>
+        <div className={`carrusel-container-mobile ${className}`}>
 
-            <div className="carrusel-info">
-                <div className="carrusel-counter">
-                    {currentIndex + 1} / {length}
+                <div
+                    className="carrusel-track"
+                    onTouchStart={onTouchStart}
+                    onTouchMove={onTouchMove}
+                    onTouchEnd={onTouchEnd}
+                    ref={carruselRef}
+                    style={{
+                        transform: `translateX(-${currentIndex * 80}%)`,
+                    }}
+                >
+                    {images.map((image, index) => (
+                        // <div
+                        //     key={index}
+                        //     className={`carrusel-slide ${index === currentIndex ? 'active' : ''}`}
+                        // >
+                            
+                        //     <img
+                        //         src={image.url}
+                        //         alt={image.description}
+                        //         className="carrusel-image"
+                        //     />
+                            
+                        // </div>
+                        <div key={index} className="carrusel-slide">
+                        {withLinks ? (
+                            <Link to={image.link}>
+                                <p className="carrusel-description">{image.description}</p>
+                                <img src={image.url} alt={image.description} />
+                            </Link>
+                        ) : (
+                            <>
+                               <img
+                                src={image.url}
+                                alt={image.description}
+                                className="carrusel-image"
+                            />
+                            </>
+                        )}
+                    </div>
+
+                    ))}
                 </div>
-                <p className={images[currentIndex].textColor}>
-                    {images[currentIndex].description}
-                </p>
+
+                <div className="carrusel-info">
+                    {/* <div className="carrusel-counter">
+                    {currentIndex + 1} / {length}
+                </div> */}
+                    <p className={images[currentIndex].textColor}>
+                        {images[currentIndex].description}
+                    </p>
+                </div>
             </div>
-        </div>
-    );
+            );
 }
 
-export default Carrusel;
+            export default Carrusel;
 

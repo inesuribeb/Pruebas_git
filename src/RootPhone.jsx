@@ -5,6 +5,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import { useState, useEffect } from 'react';
 
 import FadeInContent from './components/loadingBar/FadeInContent.jsx';
+import Footer from './components/footer/Footer.jsx';
 
 
 function RootPhone() {
@@ -89,6 +90,9 @@ function RootPhone() {
           <Outlet />
         </FadeInContent>
       </main>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </>
   );
 }

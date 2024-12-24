@@ -77,9 +77,10 @@
     color: black;
 }
 
-h5 {
+.info-origin h5{
     margin-bottom: 0.5rem;
     text-decoration: underline;
+    /* border-bottom: 1px solid black; */
 }
 
 @media (max-width: 768px) {

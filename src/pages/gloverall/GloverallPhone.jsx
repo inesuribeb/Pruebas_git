@@ -32,7 +32,7 @@ function GloverallPhone(){
                 description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days."
             },
             {
-                url: "https://i.ibb.co/7WXW4DD/Captura-de-pantalla-2024-11-15-a-las-20-51-06.png",
+                url: "https://i.ibb.co/1dZspTW/Captura-de-Pantalla-2024-12-19-a-las-21-30-00.png",
                 description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days."
             },
             {

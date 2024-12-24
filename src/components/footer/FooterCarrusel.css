@@ -1,0 +1,50 @@
+/* Footercarrusel.css */
+.footer-carrusel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+    padding: 60px 0;
+    border-bottom: 2px solid white;
+}
+
+.footer-carrusel-track {
+    display: flex;
+    transition: transform 0.3s ease-out;
+    width: 100%;
+}
+
+.footer-carrusel-slide {
+    min-width: 100%;
+    position: relative;
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-carrusel-link {
+    position: relative;
+    text-decoration: none;
+    width: 250px;
+    height: 250px;
+}
+
+.footer-carrusel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer-carrusel-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
