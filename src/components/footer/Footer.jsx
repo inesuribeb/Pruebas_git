@@ -2,7 +2,7 @@ import FooterCarrusel from './FooterCarrusel'
 import './Footer.css'
 
 
-function Footer(){
+function Footer() {
     const footerCarrusel = {
         images: [
             {
@@ -23,7 +23,7 @@ function Footer(){
             {
                 url: "https://i.ibb.co/SyMV84H/Captura-de-pantalla-2024-11-15-a-las-21-22.png",
                 title: "IL BUSSETTO",
-                link: "/iBbussetto"
+                link: "/ilBussetto"
             },
             {
                 url: "https://i.ibb.co/25ZtQyN/htdht.png",
@@ -37,9 +37,12 @@ function Footer(){
             }
         ]
     };
-    return(
-        <div className="footer-container">
-            <FooterCarrusel content={footerCarrusel} />
+    return (
+
+            <div className="footer-container">
+                <h3 className='footer-title'>Discover our brands</h3>
+                <FooterCarrusel content={footerCarrusel} />
+                <p>© SWIPE AGENCY 2025</p>
             </div>
 
     )

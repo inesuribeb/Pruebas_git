@@ -4,8 +4,11 @@
     overflow: hidden;
     position: relative;
     background-color: black;
-    padding: 60px 0;
-    border-bottom: 2px solid white;
+    padding: 0px 0;
+
+    flex: 1; /* Toma el espacio disponible entre el título y el copyright */
+    display: flex;
+    align-items: center;
 }
 
 .footer-carrusel-track {
@@ -27,8 +30,8 @@
 .footer-carrusel-link {
     position: relative;
     text-decoration: none;
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
 }
 
 .footer-carrusel-image {
