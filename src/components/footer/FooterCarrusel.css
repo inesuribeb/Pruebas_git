@@ -18,7 +18,7 @@
 }
 
 .footer-carrusel-slide {
-    min-width: 100%;
+    min-width: 60%;
     position: relative;
     flex: 0 0 100%;
     display: flex;
