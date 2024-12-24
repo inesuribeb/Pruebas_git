@@ -4,11 +4,13 @@
     overflow: hidden;
     position: relative;
     background-color: black;
-    padding: 0px 0;
+    padding: 60px 0;
 
-    flex: 1; /* Toma el espacio disponible entre el título y el copyright */
+    flex: 1; 
     display: flex;
     align-items: center;
+
+    flex-direction: column;
 }
 
 .footer-carrusel-track {
@@ -18,7 +20,7 @@
 }
 
 .footer-carrusel-slide {
-    min-width: 60%;
+    min-width: 100%;
     position: relative;
     flex: 0 0 100%;
     display: flex;
@@ -50,4 +52,26 @@
     color: white;
     text-align: center;
     z-index: 1;
+}
+
+
+/* Estilos nuevos para los indicadores */
+.footer-carrusel-indicators {
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    margin-top: 20px; /* Espacio entre el carrusel y los indicadores */
+    margin-bottom: 30px; /* Espacio debajo de los indicadores */
+}
+
+.indicator {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: background-color 0.3s ease;
+}
+
+.indicator.active {
+    background-color: white;
 }

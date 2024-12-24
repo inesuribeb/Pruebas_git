@@ -24,7 +24,7 @@ function FooterCarrusel({ content }) {
 
     const onTouchEnd = () => {
         if (!touchStart || !touchEnd) return;
-        
+
         const distance = touchStart - touchEnd;
         const isLeftSwipe = distance > minSwipeDistance;
         const isRightSwipe = distance < -minSwipeDistance;
@@ -47,7 +47,7 @@ function FooterCarrusel({ content }) {
 
     return (
         <div className="footer-carrusel-container">
-            <div 
+            <div
                 className="footer-carrusel-track"
                 onTouchStart={onTouchStart}
                 onTouchMove={onTouchMove}
@@ -56,26 +56,38 @@ function FooterCarrusel({ content }) {
                 style={{
                     transform: `translateX(-${currentIndex * 100}%)`,
                 }}
-               
+
             >
                 {images.map((image, index) => (
-                    <div 
-                        key={index} 
+                    <div
+                        key={index}
                         className="footer-carrusel-slide"
                     >
                         <Link to={image.link} className="footer-carrusel-link">
                             <div className="footer-carrusel-title">
                                 {image.title}
                             </div>
-                            <img 
-                                src={image.url} 
+                            <img
+                                src={image.url}
                                 alt={image.title}
                                 className="footer-carrusel-image"
                             />
                         </Link>
                     </div>
+
+                ))}
+
+            </div>
+
+            <div className="footer-carrusel-indicators">
+                {images.map((_, index) => (
+                    <div
+                        key={index}
+                        className={`indicator ${index === currentIndex ? 'active' : ''}`}
+                    />
                 ))}
             </div>
+
         </div>
     );
 }
