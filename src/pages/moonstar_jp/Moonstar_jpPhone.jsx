@@ -34,6 +34,11 @@ function Moonstar_jpPhone() {
             <History brandText="Established in 1873, Moonstar Japan is a pioneer in footwear craftsmanship, originating from Kurume, a city synonymous with quality shoemaking. " />
             <History brandText="The brand’s dedication to traditional techniques, such as the vulcanized rubber process, has earned it a place in the global market as a leader in both durability and design. " />
             <History brandText="Moonstar Japan emphasizes simplicity, comfort, and practicality, ensuring that every pair of shoes reflects the brand's philosophy of timeless functionality. With over a century of expertise, Moonstar Japan continues to innovate while preserving its artisanal roots, offering footwear that resonates with both tradition and modernity." />
+            <img
+                className='moonstar-drawing'
+                src='https://i.ibb.co/x8sdr6p/Captura-de-Pantalla-2024-12-20-a-las-15-58-55.png'
+                alt='Drawing for Moonstar'
+            />
             <Socials
                 instagram="https://www.instagram.com/moonstar_jp/"
                 // facebook="https://www.facebook.com/profile.php?id=61556541003931"
