@@ -4,6 +4,8 @@ import History from '../../components/phone/textPhone/History';
 import Origin from '../../components/phone/textPhone/Origin';
 import Socials from '../../components/phone/textPhone/Socials';
 
+import './ShoesLikePotteryPhone.css';
+
 function ShoesLikePotteryPhone() {
     const shoesLikePotteryCarrusel = {
         images: [

@@ -4,6 +4,8 @@ import History from '../../components/phone/textPhone/History';
 import Origin from '../../components/phone/textPhone/Origin';
 import Socials from '../../components/phone/textPhone/Socials';
 
+import './Moonstar_810sPhone.css';
+
 function Moonstar_810sPhone() {
     const moonstar810Carrusel = {
         images: [

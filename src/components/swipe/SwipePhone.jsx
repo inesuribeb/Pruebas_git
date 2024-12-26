@@ -1,6 +1,6 @@
 import Logo from "../phone/logo/Logo";
 import History from "../phone/textPhone/History";
-
+import './SwipePhone.css';
 
 function SwipePhone() {
     return (
