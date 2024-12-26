@@ -1,7 +1,7 @@
 .footer-container {
     width: 100%;
     box-sizing: border-box;
-    height: 515px;
+    height: 565px;
     background-color: black;
     display: flex;
     flex-direction: column;

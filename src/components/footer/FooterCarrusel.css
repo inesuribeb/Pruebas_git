@@ -4,7 +4,7 @@
     overflow: hidden;
     position: relative;
     background-color: black;
-    padding: 60px 0;
+    padding: 90px 0;
 
     flex: 1; 
     display: flex;
@@ -60,7 +60,7 @@
     display: flex;
     gap: 7px;
     justify-content: center;
-    margin-top: 20px; /* Espacio entre el carrusel y los indicadores */
+    margin-top: 30px; /* Espacio entre el carrusel y los indicadores */
     margin-bottom: 30px; /* Espacio debajo de los indicadores */
 }
 

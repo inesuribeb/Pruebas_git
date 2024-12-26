@@ -1,6 +1,10 @@
-function Origin() {
-    return(
-        <div></div>
+import './Origin.css'
+
+function Origin({ brandOrigin }) {
+    return (
+        <div className="brandOrigin">
+            {brandOrigin}
+        </div>
     )
 }
 

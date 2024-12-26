@@ -4,3 +4,24 @@
     gap: 20px; /* O el espacio que prefieras entre elementos */
     padding: 20px;
 }
+.gloverall-military {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+.history-phone-title {
+    border-top: 2px solid black;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.gloverall-drawing {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

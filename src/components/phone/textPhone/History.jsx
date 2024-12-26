@@ -1,6 +1,10 @@
-function History() {
-    return(
-        <div></div>
+import './History.css'
+
+function History({ brandText }) {
+    return (
+        <div className="brandText">
+            {brandText}
+        </div>
     )
 }
 

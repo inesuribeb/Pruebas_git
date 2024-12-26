@@ -1,0 +1,12 @@
+.socials-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espacio entre iconos */
+    margin-bottom: 50px;
+  }
+
+.socials-title {
+    margin-top: 80px;
+    text-align: center;
+}
