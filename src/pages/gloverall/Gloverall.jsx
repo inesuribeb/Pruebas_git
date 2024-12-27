@@ -30,7 +30,7 @@ function Gloverall (){
                 description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days."
             },
             {
-                url: "https://i.ibb.co/7WXW4DD/Captura-de-pantalla-2024-11-15-a-las-20-51-06.png",
+                url: "https://i.ibb.co/1dZspTW/Captura-de-Pantalla-2024-12-19-a-las-21-30-00.png",
                 description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days."
             },
             {
@@ -43,6 +43,26 @@ function Gloverall (){
             },
             {
                 url: "https://i.ibb.co/xfXQzGq/Captura-de-pantalla-2024-11-15-a-las-20-52-21.png",
+                description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days."
+            },
+            {
+                url: "https://i.ibb.co/mFzVc5k/Captura-de-Pantalla-2024-12-27-a-las-13-02-42.png",
+                description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days."
+            },
+            {
+                url: "https://i.ibb.co/r68ms7m/Captura-de-Pantalla-2024-12-27-a-las-12-55-31.png",
+                description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days."
+            },
+            {
+                url: "https://i.ibb.co/VJb0HKd/Captura-de-Pantalla-2024-12-27-a-las-12-55-56.png",
+                description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days."
+            },
+            {
+                url: "https://i.ibb.co/Zgzh5cv/Captura-de-Pantalla-2024-12-27-a-las-12-54-56.png",
+                description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days."
+            },
+            {
+                url: "https://i.ibb.co/FB69RCy/history-duffle-coat-hms-iron-duke-lead.jpg",
                 description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days."
             },
         ]

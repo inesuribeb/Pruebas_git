@@ -5,7 +5,7 @@ function MoonstarJp (){
     const moonstarJpCarousel = {
         images: [
             {
-                url: "https://i.ibb.co/BsSr05w/also-image02-2x.jpg",
+                url: "https://i.ibb.co/Np1h1Yy/also-image02-2x.jpg",
                 description: "Moonstar Japan's classic canvas sneakers displayed in a minimalist studio setting. Photographed by Yuki Nakamura."
             },
             {
@@ -19,7 +19,27 @@ function MoonstarJp (){
             {
                 url: "https://i.ibb.co/58WjwLb/Captura-de-pantalla-2024-11-15-a-las-21-28-23.png",
                 description: "Moonstar Japan's latest collection showcased in a traditional Japanese courtyard."
-            }
+            },
+            {
+                url: "https://i.ibb.co/r5scbXL/Captura-de-pantalla-2024-11-15-a-las-21-28-48.png",
+                description: "Moonstar Japan's latest collection showcased in a traditional Japanese courtyard."
+            },
+            {
+                url: "https://i.ibb.co/MZ9w2m3/Captura-de-pantalla-2024-11-15-a-las-21-31-35.png",
+                description: "Moonstar Japan's latest collection showcased in a traditional Japanese courtyard."
+            },
+            {
+                url: "https://i.ibb.co/wStBY0m/Captura-de-pantalla-2024-11-15-a-las-21-30-09.png",
+                description: "Moonstar Japan's latest collection showcased in a traditional Japanese courtyard."
+            },
+            {
+                url: "https://i.ibb.co/vHG7jqt/also-image01-2x.jpg",
+                description: "Moonstar Japan's latest collection showcased in a traditional Japanese courtyard."
+            },
+            {
+                url: "https://i.ibb.co/s6Wb48j/Captura-de-Pantalla-2024-12-27-a-las-12-46-03.png",
+                description: "Moonstar Japan's latest collection showcased in a traditional Japanese courtyard."
+            },
         ]
     };
     

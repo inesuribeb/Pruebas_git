@@ -15,6 +15,34 @@ function Moonstar810 (){
             {
                 url: "https://i.ibb.co/MPPkHJd/sdv.png",
                 description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
+            },
+            {
+                url: "https://i.ibb.co/n3RDwJT/Captura-de-pantalla-2024-11-15-a-las-21-48-21.png",
+                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
+            },
+            {
+                url: "https://i.ibb.co/rbb1pQv/fkjbv.png",
+                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
+            },
+            {
+                url: "https://i.ibb.co/4YZ0Ngn/Captura-de-pantalla-2024-11-15-a-las-21-49.png",
+                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
+            },
+            {
+                url: "https://i.ibb.co/R3cdp2C/vfs.png",
+                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
+            },
+            {
+                url: "https://i.ibb.co/vmyzz1j/slide-003-1.jpg",
+                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
+            },
+            {
+                url: "https://i.ibb.co/G33YRKq/jyt.png",
+                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
+            },
+            {
+                url: "https://i.ibb.co/fXCcsTt/Captura-de-pantalla-2024-11-15-a-las-21-51-06.png",
+                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
             }
         ]
     };
