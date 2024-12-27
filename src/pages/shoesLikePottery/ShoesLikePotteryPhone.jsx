@@ -18,7 +18,23 @@ function ShoesLikePotteryPhone() {
                 description: "Detail shot of Shoes Like Pottery's signature blue sole and vulcanized construction."
             },
             {
-                url: "/images/shoesLikePottery/collection3.jpg",
+                url: "https://i.ibb.co/gjytRH0/38040006.jpg",
+                description: "Shoes Like Pottery sneakers styled in a casual outdoor shoot. Captured by Hiroshi Takahashi."
+            },
+            {
+                url: "https://i.ibb.co/rGyKhRd/Captura-de-pantalla-2024-11-15-a-las-21-37-04.png",
+                description: "Shoes Like Pottery sneakers styled in a casual outdoor shoot. Captured by Hiroshi Takahashi."
+            },
+            {
+                url: "https://i.ibb.co/bKDdXbk/86590012.jpg",
+                description: "Shoes Like Pottery sneakers styled in a casual outdoor shoot. Captured by Hiroshi Takahashi."
+            },
+            {
+                url: "https://i.ibb.co/6NGy0jz/Captura-de-pantalla-2024-11-15-a-las-21-39-22.png",
+                description: "Shoes Like Pottery sneakers styled in a casual outdoor shoot. Captured by Hiroshi Takahashi."
+            },
+            {
+                url: "https://i.ibb.co/4Z78YDb/S-L-P01-JP-RED-scaled.jpg",
                 description: "Shoes Like Pottery sneakers styled in a casual outdoor shoot. Captured by Hiroshi Takahashi."
             }
         ]
@@ -30,8 +46,28 @@ function ShoesLikePotteryPhone() {
             <Carrusel content={shoesLikePotteryCarrusel} />
             <h3 className='history-phone-title'>History</h3>
             <History brandText="Shoes Like Pottery is a Japanese footwear brand celebrated for its unique manufacturing process inspired by pottery techniques. " />
+            <img
+                className='slp-fabric'
+                src='https://i.ibb.co/b2pXVhW/38040009.jpg'
+                alt='Fabrication Shoes Like Pottery'
+            />
             <History brandText="Based in Kurume, Japan, the brand employs a vulcanization method where each shoe is kiln-fired at high temperatures, resulting in a durable and flexible sole. The signature blue sole, symbolizing craftsmanship, sets Shoes Like Pottery apart in the world of casual footwear. " />
             <History brandText="Combining minimalist design with unparalleled quality, the brand reflects the essence of Japanese artistry and tradition. Each pair is meticulously handcrafted, ensuring a timeless and functional product loved by sneaker enthusiasts worldwide." />
+            <img
+                className='slp-fabric'
+                src='https://i.ibb.co/Bc1Hyny/38620027.jpg'
+                alt='Fabrication Shoes Like Pottery'
+            />
+            <img
+                className='slp-fabric'
+                src='https://i.ibb.co/LYxTqwj/Shoes-Like-pottery-1.jpg'
+                alt='Display Shoes Like Pottery'
+            />
+            <img
+                className='slp-fabric'
+                src='https://i.ibb.co/tcMqXVk/38040019-1.jpg'
+                alt='Display Shoes Like Pottery'
+            />
             <Socials
                 instagram="https://www.instagram.com/shoeslikepottery/"
                 facebook="https://www.facebook.com/shoeslikepottery"
