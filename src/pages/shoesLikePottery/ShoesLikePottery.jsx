@@ -29,6 +29,10 @@ function ShoesLikePottery (){
                 description: "Shoes Like Pottery sneakers styled in a casual outdoor shoot. Captured by Hiroshi Takahashi."
             },
             {
+                url: "https://i.ibb.co/b2pXVhW/38040009.jpg",
+                description: "Shoes Like Pottery sneakers styled in a casual outdoor shoot. Captured by Hiroshi Takahashi."
+            },
+            {
                 url: "https://i.ibb.co/4Z78YDb/S-L-P01-JP-RED-scaled.jpg",
                 description: "Shoes Like Pottery sneakers styled in a casual outdoor shoot. Captured by Hiroshi Takahashi."
             },
