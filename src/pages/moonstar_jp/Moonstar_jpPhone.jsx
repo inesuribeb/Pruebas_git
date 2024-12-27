@@ -11,11 +11,11 @@ function Moonstar_jpPhone() {
     const moonstarJpCarrusel = {
         images: [
             {
-                url: "https://i.ibb.co/BsSr05w/also-image02-2x.jpg",
+                url: "https://i.ibb.co/r5scbXL/Captura-de-pantalla-2024-11-15-a-las-21-28-48.png",
                 description: "Moonstar Japan's classic canvas sneakers displayed in a minimalist studio setting. Photographed by Yuki Nakamura."
             },
             {
-                url: "https://i.ibb.co/Z1KJ4Tf/Captura-de-pantalla-2024-11-15-a-las-21-33-05.png",
+                url: "https://i.ibb.co/HK5kzSw/Captura-de-pantalla-2024-11-15-a-las-21-33-05.png",
                 description: "A close-up of Moonstar Japan's signature vulcanized sole process. Captured at their Kurume factory."
             },
             {
@@ -23,7 +23,15 @@ function Moonstar_jpPhone() {
                 description: "Moonstar Japan's latest collection showcased in a traditional Japanese courtyard."
             },
             {
-                url: "https://i.ibb.co/58WjwLb/Captura-de-pantalla-2024-11-15-a-las-21-28-23.png",
+                url: "https://i.ibb.co/LhQCb8W/Captura-de-pantalla-2024-11-15-a-las-21-28-23.png",
+                description: "Moonstar Japan's latest collection showcased in a traditional Japanese courtyard."
+            },
+            {
+                url: "https://i.ibb.co/MZ9w2m3/Captura-de-pantalla-2024-11-15-a-las-21-31-35.png",
+                description: "Moonstar Japan's latest collection showcased in a traditional Japanese courtyard."
+            },
+            {
+                url: "https://i.ibb.co/wStBY0m/Captura-de-pantalla-2024-11-15-a-las-21-30-09.png",
                 description: "Moonstar Japan's latest collection showcased in a traditional Japanese courtyard."
             }
         ]
@@ -57,12 +65,28 @@ function Moonstar_jpPhone() {
             <History brandText="Moonstar Japan emphasizes simplicity, comfort, and practicality, ensuring that every pair of shoes reflects the brand's philosophy of timeless functionality. With over a century of expertise, Moonstar Japan continues to innovate while preserving its artisanal roots, offering footwear that resonates with both tradition and modernity." />
             <img
                 className='moonstar-drawing'
+                src='https://i.ibb.co/vHG7jqt/also-image01-2x.jpg'
+                alt='Moonstar store in Japan'
+            />
+            <img
+                className='moonstar-drawing'
+                src='https://i.ibb.co/Np1h1Yy/also-image02-2x.jpg'
+                alt='Moonstar store in Japan'
+            />
+            <img
+                className='moonstar-drawing'
                 src='https://i.ibb.co/x8sdr6p/Captura-de-Pantalla-2024-12-20-a-las-15-58-55.png'
+                alt='Drawing for Moonstar'
+            />
+            <img
+                className='moonstar-drawing'
+                src='https://i.ibb.co/s6Wb48j/Captura-de-Pantalla-2024-12-27-a-las-12-46-03.png'
                 alt='Drawing for Moonstar'
             />
             <div className="moonstarJpBs">
                 <BestSellers brandBsContent={moonstarJpBs} />
             </div>
+            
             <Socials
                 instagram="https://www.instagram.com/moonstar_jp/"
                 // facebook="https://www.facebook.com/profile.php?id=61556541003931"
