@@ -1,6 +1,8 @@
 import Carousel from "../carousel/Carousel";
 import TruncatedAbout from "../buttons/TruncatedAbout";
 import { useNavigate, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 import './Swipe.css'
 
 function Swipe() {
@@ -43,10 +45,11 @@ function Swipe() {
                                 Show less
                             </button>
                         )}
-                        {/* <div className="contact">
-                            <p>gabriel@swipeagency.com</p>
-                            <a href="https://www.instagram.com/swipebilbao/" target="_blank">Instagram</a>
-                        </div> */}
+                    </div>
+                    <div className="contact-button-container">
+                        <Link to="/contact" className="contact-button">
+                            CONTACT US
+                        </Link>
                     </div>
                 </div>
             </div>

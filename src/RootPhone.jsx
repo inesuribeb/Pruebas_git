@@ -77,7 +77,7 @@ function RootPhone() {
 
                 <ul className={`second-nav-list-mobile ${isClosing ? 'fade-out' : 'fade-in'}`}>
                   <li className="second-nav-item-mobile"><Link onClick={handleNavClick} to="/">About us</Link></li>
-                  <li className="second-nav-item-mobile"><Link onClick={handleNavClick} to="/sanders">Contact</Link></li>
+                  <li className="second-nav-item-mobile"><Link onClick={handleNavClick} to="/contact">Contact</Link></li>
                 </ul>
               </>
             )}
