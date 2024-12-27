@@ -3,6 +3,7 @@ import Carrusel from '../../components/phone/carrusel/Carrusel'
 import History from '../../components/phone/textPhone/History';
 import Origin from '../../components/phone/textPhone/Origin';
 import Socials from '../../components/phone/textPhone/Socials';
+import BestSellers from '../../components/phone/bestSellers/BestSellers';
 
 import './Moonstar_jpPhone.css';
 
@@ -27,6 +28,24 @@ function Moonstar_jpPhone() {
             }
         ]
     };
+
+    const moonstarJpBs = {
+        images: [
+            {
+                url: 'https://i.ibb.co/M1nxFT6/24-FW-HIBASKET.jpg',
+                description: 'Hi Basket'
+            },
+            {
+                url: 'https://i.ibb.co/h11yCmt/24-SS-FV-ALWEATHERRF.jpg',
+                description: 'AlWeather'
+            },
+            {
+                url: 'https://i.ibb.co/Qjr9v6R/22-SS-GYMCLASSIC.jpg',
+                description: 'Gym Classic'
+            }
+        ]
+    };
+
     return (
         <div>
             <Logo url="https://moonstar-manufacturing.jp/moonstar/wp-content/themes/madeinkurume/img/moonstar_logo.png" />
@@ -41,6 +60,9 @@ function Moonstar_jpPhone() {
                 src='https://i.ibb.co/x8sdr6p/Captura-de-Pantalla-2024-12-20-a-las-15-58-55.png'
                 alt='Drawing for Moonstar'
             />
+            <div className="moonstarJpBs">
+                <BestSellers brandBsContent={moonstarJpBs} />
+            </div>
             <Socials
                 instagram="https://www.instagram.com/moonstar_jp/"
                 // facebook="https://www.facebook.com/profile.php?id=61556541003931"

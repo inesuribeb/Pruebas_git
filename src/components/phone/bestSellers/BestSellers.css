@@ -1,0 +1,20 @@
+.best-sellers-title {
+    padding-left: 26px;
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+
+.brandBsContent {
+    margin-top: 40px;
+    background-color: var(--bs-background);
+    margin-right: -16px;
+    margin-left: -16px;
+}
+
+.carrusel-image {
+    padding-left: 20px;
+}
+
+.carrusel-description {
+    padding-left: 26px;
+}
