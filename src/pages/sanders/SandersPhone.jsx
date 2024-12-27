@@ -3,6 +3,7 @@ import Carrusel from '../../components/phone/carrusel/Carrusel'
 import History from '../../components/phone/textPhone/History';
 import Origin from '../../components/phone/textPhone/Origin';
 import Socials from '../../components/phone/textPhone/Socials';
+import BestSellers from '../../components/phone/bestSellers/BestSellers';
 
 import './SandersPhone.css';
 
@@ -24,6 +25,19 @@ function SandersPhone() {
             }
         ]
     };
+
+    const sandersBs = {
+        images: [
+            {
+                url: 'https://i.ibb.co/TqMGzcj/Captura-de-pantalla-2024-11-15-a-las-20-27-09.png',
+                description: 'Hi Top | Polo Snuff Suede Chukka Boot'
+            },
+            {
+                url: 'https://i.ibb.co/bdtqvRz/Captura-de-pantalla-2024-11-15-a-las-20-27.png',
+                description: 'Ash | Indiana Tan Suede Monkey Shoe'
+            }
+        ]
+    };
     return (
         <div>
             <Logo url="https://www.sanders-uk.com/images/modules/promo_units/1623656432-53412900.png" />
@@ -33,6 +47,9 @@ function SandersPhone() {
             <History brandText="Founded in 1873, Sanders & Sanders Ltd. is one of the oldest and most esteemed shoemakers in England. Based in Rushden, Northamptonshire, the heart of British shoemaking, Sanders has a long-standing tradition of producing high-quality, handcrafted footwear. " />
             <History brandText="Known for their impeccable craftsmanship, durability, and timeless designs, Sanders shoes have been worn by style icons and professionals alike. From military boots to elegant brogues, every pair embodies the brand's commitment to excellence and heritage. " />
             <History brandText="Today, Sanders continues to merge traditional shoemaking techniques with contemporary style, ensuring their place as a staple in modern wardrobes." />
+            <div className="sandersBs">
+                <BestSellers brandBsContent={sandersBs} />
+            </div>
             <Socials
                 instagram="https://www.instagram.com/sandersshoes/"
                 // facebook="https://www.facebook.com/profile.php?id=61556541003931"
