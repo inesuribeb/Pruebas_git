@@ -16,13 +16,53 @@ function SandersPhone() {
                 textColor: "dark" 
             },
             {
-                url: "https://i.ibb.co/dWbJ9mn/Captura-de-pantalla-2024-11-15-a-las-20-18-52.png",
+                url: "https://i.ibb.co/FJGqXkt/miamor.png",
                 description: "Behind the scenes: Sanders' shoemaking process at their factory in Rushden, England."
             },
             {
                 url: "https://i.ibb.co/HpjWSjh/Captura-de-pantalla-2024-11-15-a-las-20-18-04.png",
                 description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
-            }
+            },
+            {
+                url: "https://i.ibb.co/gJLRbbL/3.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/Zgwh54r/2.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/Dzrtv5s/8.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/84rb5FC/7.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/0VYFrf5/5.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/BjpzNYh/1.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/WVyVHNR/Captura-de-Pantalla-2024-12-27-a-las-14-58-29.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/2NH1kfb/Captura-de-Pantalla-2024-12-27-a-las-14-59-05.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/TY4H5Nb/Captura-de-Pantalla-2024-12-27-a-las-14-59-43.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/WkRXPF4/Captura-de-Pantalla-2024-12-27-a-las-14-59-21.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
         ]
     };
 
@@ -47,6 +87,17 @@ function SandersPhone() {
             <History brandText="Founded in 1873, Sanders & Sanders Ltd. is one of the oldest and most esteemed shoemakers in England. Based in Rushden, Northamptonshire, the heart of British shoemaking, Sanders has a long-standing tradition of producing high-quality, handcrafted footwear. " />
             <History brandText="Known for their impeccable craftsmanship, durability, and timeless designs, Sanders shoes have been worn by style icons and professionals alike. From military boots to elegant brogues, every pair embodies the brand's commitment to excellence and heritage. " />
             <History brandText="Today, Sanders continues to merge traditional shoemaking techniques with contemporary style, ensuring their place as a staple in modern wardrobes." />
+            <img
+                className='sanders-pictures'
+                src='https://i.ibb.co/Fxbhqh9/ygyg.jpg'
+                alt='Sanders shoes'
+            />
+            <img
+                className='sanders-pictures'
+                src='https://i.ibb.co/mF8jn3z/4.png'
+                alt='Sanders shoes'
+            />
+            
             <div className="sandersBs">
                 <BestSellers brandBsContent={sandersBs} />
             </div>

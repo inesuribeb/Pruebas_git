@@ -10,11 +10,51 @@ function Sanders (){
                 textColor: "dark" 
             },
             {
-                url: "https://i.ibb.co/dWbJ9mn/Captura-de-pantalla-2024-11-15-a-las-20-18-52.png",
+                url: "https://i.ibb.co/FJGqXkt/miamor.png",
                 description: "Behind the scenes: Sanders' shoemaking process at their factory in Rushden, England."
             },
             {
                 url: "https://i.ibb.co/HpjWSjh/Captura-de-pantalla-2024-11-15-a-las-20-18-04.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/gJLRbbL/3.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/Zgwh54r/2.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/Dzrtv5s/8.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/84rb5FC/7.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/0VYFrf5/5.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/BjpzNYh/1.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/WVyVHNR/Captura-de-Pantalla-2024-12-27-a-las-14-58-29.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/2NH1kfb/Captura-de-Pantalla-2024-12-27-a-las-14-59-05.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/TY4H5Nb/Captura-de-Pantalla-2024-12-27-a-las-14-59-43.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
+            },
+            {
+                url: "https://i.ibb.co/WkRXPF4/Captura-de-Pantalla-2024-12-27-a-las-14-59-21.png",
                 description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
             }
         ]

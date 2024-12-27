@@ -92,12 +92,12 @@ function GloverallPhone() {
             <div className="twoColumnsGloverall">
                 <img
                     className='gloverall-traditional'
-                    src='https://i.ibb.co/r68ms7m/Captura-de-Pantalla-2024-12-27-a-las-12-55-31.png'
+                    src='https://i.ibb.co/mFzVc5k/Captura-de-Pantalla-2024-12-27-a-las-13-02-42.png'
                     alt='Drawing for Gloverall'
                 />
                 <img
                     className='gloverall-traditional'
-                    src='https://i.ibb.co/mFzVc5k/Captura-de-Pantalla-2024-12-27-a-las-13-02-42.png'
+                    src='https://i.ibb.co/r68ms7m/Captura-de-Pantalla-2024-12-27-a-las-12-55-31.png'
                     alt='Drawing for Gloverall'
                 />
                 <img

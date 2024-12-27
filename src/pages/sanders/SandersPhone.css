@@ -7,3 +7,12 @@
 .sandersBs .brandBsContent {
     background-color: #867353;
 }
+
+.sanders-pictures {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
