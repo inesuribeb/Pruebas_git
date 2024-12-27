@@ -89,6 +89,28 @@ function GloverallPhone() {
                 src='https://i.ibb.co/z8bRxcs/drawing.png'
                 alt='Drawing for Gloverall'
             />
+            <div className="twoColumnsGloverall">
+                <img
+                    className='gloverall-traditional'
+                    src='https://i.ibb.co/r68ms7m/Captura-de-Pantalla-2024-12-27-a-las-12-55-31.png'
+                    alt='Drawing for Gloverall'
+                />
+                <img
+                    className='gloverall-traditional'
+                    src='https://i.ibb.co/mFzVc5k/Captura-de-Pantalla-2024-12-27-a-las-13-02-42.png'
+                    alt='Drawing for Gloverall'
+                />
+                <img
+                    className='gloverall-traditional'
+                    src='https://i.ibb.co/VJb0HKd/Captura-de-Pantalla-2024-12-27-a-las-12-55-56.png'
+                    alt='Drawing for Gloverall'
+                />
+                <img
+                    className='gloverall-traditional'
+                    src='https://i.ibb.co/Zgzh5cv/Captura-de-Pantalla-2024-12-27-a-las-12-54-56.png'
+                    alt='Drawing for Gloverall'
+                />
+            </div>
             <div className="gloverall">
                 <BestSellers brandBsContent={gloverallBs} />
             </div>
