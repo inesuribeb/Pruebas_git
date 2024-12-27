@@ -21,6 +21,22 @@ function Moonstar_810sPhone() {
             {
                 url: "https://i.ibb.co/MPPkHJd/sdv.png",
                 description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
+            },
+            {
+                url: "https://i.ibb.co/rbb1pQv/fkjbv.png",
+                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
+            },
+            {
+                url: "https://i.ibb.co/4YZ0Ngn/Captura-de-pantalla-2024-11-15-a-las-21-49.png",
+                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
+            },
+            {
+                url: "https://i.ibb.co/R3cdp2C/vfs.png",
+                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
+            },
+            {
+                url: "https://i.ibb.co/vmyzz1j/slide-003-1.jpg",
+                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
             }
         ]
     };
@@ -38,6 +54,10 @@ function Moonstar_810sPhone() {
             {
                 url: 'https://i.ibb.co/6cQ4JzD/kitche-black-2.jpg" alt="kitche-black-2',
                 description: 'Kitche Black'
+            },
+            {
+                url: 'https://i.ibb.co/6cQ4JzD/kitche-black-2.jpg" alt="kitche-black-2',
+                description: 'Kitche Black'
             }
         ]
     };
@@ -47,10 +67,30 @@ function Moonstar_810sPhone() {
             <Logo url="https://and-flow.jp/wp-content/uploads/2024/08/13196_sub1.png" />
             <Origin brandOrigin="Kurume, Japan" />
             <Carrusel content={moonstar810Carrusel} />
+            <img
+                className='pictures810s'
+                src='https://i.ibb.co/n3RDwJT/Captura-de-pantalla-2024-11-15-a-las-21-48-21.png'
+                alt='Display Moonstar 810s'
+            />
             <h3 className='history-phone-title'>History</h3>
             <History brandText="Founded in 1873, Moonstar is a heritage Japanese footwear brand rooted in the traditions of Kurume, a city renowned for its fine craftsmanship. " />
+            <img
+                className='pictures810s'
+                src='https://i.ibb.co/vd8HygS/Captura-de-Pantalla-2024-12-27-a-las-12-21-29.png'
+                alt='Display Moonstar 810s'
+            />
             <History brandText="The Moonstar 810s line represents the perfect fusion of the brand’s century-old expertise and modern, functional design. Known for their vulcanized rubber soles and meticulous attention to detail, Moonstar 810 shoes are versatile, durable, and stylish. " />
             <History brandText="Every pair is made with precision in the Kurume factory, ensuring superior quality and comfort. Moonstar continues to innovate while honoring its rich legacy, making it a favorite among footwear enthusiasts worldwide." />
+            <img
+                className='pictures810s'
+                src='https://i.ibb.co/G33YRKq/jyt.png'
+                alt='Display Moonstar 810s'
+            />
+            <img
+                className='pictures810s'
+                src='https://i.ibb.co/fXCcsTt/Captura-de-pantalla-2024-11-15-a-las-21-51-06.png'
+                alt='Display Moonstar 810s'
+            />
             <div className="moonstar810sBs">
                 <BestSellers brandBsContent={moonstar810sBs} />
             </div>
