@@ -2,6 +2,7 @@ import TruncatedAbout from '../buttons/TruncatedAbout';
 import './Info.css'
 import '../../../public/fonts/fonts.css'
 
+
 function Info({ logo, title, origin, socials = [], history, brandClass}) {
     return (
         <>

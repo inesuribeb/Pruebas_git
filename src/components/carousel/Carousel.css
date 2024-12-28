@@ -2,6 +2,10 @@
     position: relative;
     width: 100%;
     height: 100%;
+    font-family: 'InesRegular';
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    transform: scaleY(1.01);
 }
 
 .carousel-invisible-prev,
@@ -14,6 +18,8 @@
     border: none;
     cursor: pointer;
     z-index: 1;
+
+    
 }
 
 .carousel-invisible-prev {
@@ -93,6 +99,11 @@
     background: none;
     border: none;
     cursor: pointer;
+
+    font-family: 'InesRegular';
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    transform: scaleY(1.01);
 }
 
 .carousel-image-container {

@@ -41,6 +41,11 @@
     justify-content: center;
     position: relative;
     z-index: 1;
+
+    font-family: 'InesRegular';
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    transform: scaleY(1.01);
 }
 
 .nav-item {

@@ -5,9 +5,11 @@
 
 
 .logo-wrapper {
-    position: absolute;
+    position: fixed;
     top: 120px; 
-    left: 58%;
+    left: 60%;
+    /* top:18vh;
+    left:120vh; */
     transform: translateX(-50%);
     z-index: 10;
     width: 200px; 
@@ -15,14 +17,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px; 
+    
     height: 80px; 
+    /* border: 1px solid red; */
 }
 
 .logo-wrapper img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+    filter: brightness(0);
 }
 
 
@@ -32,7 +36,17 @@
     padding-left: 2rem;
     padding-top: 0;
     white-space: pre-wrap;
-    padding-top: 100px;
+    padding-top: 90px;
+    font-family: 'InesRegular';
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    transform: scaleY(1.01);
+}
+
+.info-container h5 {
+    font-size: 20px;
+    font-family: 'InesItalic';
+    letter-spacing: 1.2px;
 }
 
 .info-header {
@@ -75,12 +89,14 @@
 .info-socials a {
     text-decoration: none;
     color: black;
+    
 }
 
 .info-origin h5{
     margin-bottom: 0.5rem;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     /* border-bottom: 1px solid black; */
+    
 }
 
 @media (max-width: 768px) {
