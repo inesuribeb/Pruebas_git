@@ -5,7 +5,7 @@ function Moonstar810 (){
     const moonstar810Carousel = {
         images: [
             {
-                url: "https://i.ibb.co/2Njbvqh/hym.png",
+                url: "https://i.ibb.co/StXGfmm/1web.jpg",
                 description: "Editorial shoot featuring Moonstar 810 sneakers in an urban landscape. Location: Tokyo, Japan."
             },
             {
@@ -14,36 +14,53 @@ function Moonstar810 (){
             },
             {
                 url: "https://i.ibb.co/MPPkHJd/sdv.png",
+                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures.",
+                textColor: "dark" 
+            },
+            {
+                url: "https://i.ibb.co/LrBNHzc/810studio.jpg",
                 description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
             },
             {
-                url: "https://i.ibb.co/n3RDwJT/Captura-de-pantalla-2024-11-15-a-las-21-48-21.png",
+                url: "https://i.ibb.co/x5PNh4x/studenaero-bluegray-1.jpg",
                 description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
             },
             {
-                url: "https://i.ibb.co/rbb1pQv/fkjbv.png",
-                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
-            },
-            {
-                url: "https://i.ibb.co/4YZ0Ngn/Captura-de-pantalla-2024-11-15-a-las-21-49.png",
+                url: "https://i.ibb.co/MVhhwL9/change2.jpg",
                 description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
             },
             {
                 url: "https://i.ibb.co/R3cdp2C/vfs.png",
-                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
+                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures.",
+                textColor: "dark" 
             },
             {
-                url: "https://i.ibb.co/vmyzz1j/slide-003-1.jpg",
-                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
+                url: "https://i.ibb.co/S7VqK8T/new4.jpg",
+                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures.",
+                textColor: "dark" 
             },
             {
-                url: "https://i.ibb.co/G33YRKq/jyt.png",
+                url: "https://i.ibb.co/VJdwxwW/change.jpg",
                 description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
             },
             {
                 url: "https://i.ibb.co/fXCcsTt/Captura-de-pantalla-2024-11-15-a-las-21-51-06.png",
                 description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
-            }
+            },
+            {
+                url: "https://i.ibb.co/P50W7VP/new8.jpg",
+                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures."
+            },
+            {
+                url: "https://i.ibb.co/df7Cn8v/new7.jpg",
+                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures.",
+                textColor: "dark"
+            },
+            {
+                url: "https://i.ibb.co/R7zn9Cb/new6.jpg",
+                description: "Detail shot of Moonstar 810's premium craftsmanship. Focus on materials and textures.",
+                textColor: "dark"
+            },
         ]
     };
     

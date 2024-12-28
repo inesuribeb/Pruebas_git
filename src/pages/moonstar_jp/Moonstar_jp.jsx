@@ -5,11 +5,15 @@ function MoonstarJp (){
     const moonstarJpCarousel = {
         images: [
             {
-                url: "https://i.ibb.co/Np1h1Yy/also-image02-2x.jpg",
+                url: "https://i.ibb.co/CbT1KnJ/parawebmoonstar.jpg",
                 description: "Moonstar Japan's classic canvas sneakers displayed in a minimalist studio setting. Photographed by Yuki Nakamura."
             },
             {
-                url: "https://i.ibb.co/Z1KJ4Tf/Captura-de-pantalla-2024-11-15-a-las-21-33-05.png",
+                url: "https://i.ibb.co/XV20PXG/moonstar2.jpg",
+                description: "A close-up of Moonstar Japan's signature vulcanized sole process. Captured at their Kurume factory."
+            },
+            {
+                url: "https://i.ibb.co/BPCJzZ3/product.jpg",
                 description: "A close-up of Moonstar Japan's signature vulcanized sole process. Captured at their Kurume factory."
             },
             {
@@ -19,6 +23,10 @@ function MoonstarJp (){
             {
                 url: "https://i.ibb.co/58WjwLb/Captura-de-pantalla-2024-11-15-a-las-21-28-23.png",
                 description: "Moonstar Japan's latest collection showcased in a traditional Japanese courtyard."
+            },
+            {
+                url: "https://i.ibb.co/ZzPfnXS/product2.jpg",
+                description: "A close-up of Moonstar Japan's signature vulcanized sole process. Captured at their Kurume factory."
             },
             {
                 url: "https://i.ibb.co/r5scbXL/Captura-de-pantalla-2024-11-15-a-las-21-28-48.png",
@@ -33,8 +41,12 @@ function MoonstarJp (){
                 description: "Moonstar Japan's latest collection showcased in a traditional Japanese courtyard."
             },
             {
-                url: "https://i.ibb.co/vHG7jqt/also-image01-2x.jpg",
+                url: "https://i.ibb.co/2dW83kH/webmoon.jpg",
                 description: "Moonstar Japan's latest collection showcased in a traditional Japanese courtyard."
+            },
+            {
+                url: "https://i.ibb.co/8z0kffM/Captura-de-pantalla-2024-11-15-a-las-21-32-28.png",
+                description: "A close-up of Moonstar Japan's signature vulcanized sole process. Captured at their Kurume factory."
             },
             {
                 url: "https://i.ibb.co/s6Wb48j/Captura-de-Pantalla-2024-12-27-a-las-12-46-03.png",

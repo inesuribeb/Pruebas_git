@@ -10,7 +10,8 @@ function ShoesLikePottery (){
             },
             {
                 url: "https://i.ibb.co/PY8wFwn/86590007-679x1024.jpg",
-                description: "Detail shot of Shoes Like Pottery's signature blue sole and vulcanized construction."
+                description: "Detail shot of Shoes Like Pottery's signature blue sole and vulcanized construction.",
+                textColor: "dark" 
             },
             {
                 url: "https://i.ibb.co/gjytRH0/38040006.jpg",
@@ -22,11 +23,13 @@ function ShoesLikePottery (){
             },
             {
                 url: "https://i.ibb.co/bKDdXbk/86590012.jpg",
-                description: "Shoes Like Pottery sneakers styled in a casual outdoor shoot. Captured by Hiroshi Takahashi."
+                description: "Shoes Like Pottery sneakers styled in a casual outdoor shoot. Captured by Hiroshi Takahashi.",
+                textColor: "dark" 
             },
             {
                 url: "https://i.ibb.co/6NGy0jz/Captura-de-pantalla-2024-11-15-a-las-21-39-22.png",
-                description: "Shoes Like Pottery sneakers styled in a casual outdoor shoot. Captured by Hiroshi Takahashi."
+                description: "Shoes Like Pottery sneakers styled in a casual outdoor shoot. Captured by Hiroshi Takahashi.",
+                textColor: "dark" 
             },
             {
                 url: "https://i.ibb.co/b2pXVhW/38040009.jpg",
@@ -42,7 +45,8 @@ function ShoesLikePottery (){
             },
             {
                 url: "https://i.ibb.co/tcMqXVk/38040019-1.jpg",
-                description: "Shoes Like Pottery sneakers styled in a casual outdoor shoot. Captured by Hiroshi Takahashi."
+                description: "Shoes Like Pottery sneakers styled in a casual outdoor shoot. Captured by Hiroshi Takahashi.",
+                textColor: "dark" 
             },
         ]
     };

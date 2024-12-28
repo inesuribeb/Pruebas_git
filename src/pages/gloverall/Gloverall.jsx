@@ -5,21 +5,24 @@ function Gloverall (){
     const gloverallCarousel = {
         images: [
             {
-                url: "https://i.ibb.co/VwSFHHr/Captura-de-pantalla-2024-11-15-a-las-20-57-54-copia.png",
+                url: "https://i.ibb.co/jGjpm4T/gloverall1.png",
                 description: "Photography for the Gloverall 2024 Collection. Shot in London, UK with Sarah Smith and John Doe. Photos by Mark Johnson.",
                 textColor: "dark" 
             },
             {
                 url: "https://i.ibb.co/Yt7Df6K/Captura-de-pantalla-2024-11-15-a-las-20-48-42.png",
                 description: "Behind the scenes of Gloverall Spring Collection. Editorial photography by Mark Johnson.",
+                textColor: "dark" 
             },
             {
                 url: "https://i.ibb.co/1GhqcwH/Captura-de-pantalla-2024-11-15-a-las-20-54-21.png",
-                description: "Gloverall Heritage Collection showcase. Location: Scottish Highlands."
+                description: "Gloverall Heritage Collection showcase. Location: Scottish Highlands.",
+                textColor: "dark" 
             },
             {
                 url: "https://i.ibb.co/b36XF3V/Captura-de-pantalla-2024-11-15-a-las-20-49-10.png",
-                description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days."
+                description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days.",
+                textColor: "dark" 
             },
             {
                 url: "https://i.ibb.co/FWhZYqS/Captura-de-pantalla-2024-11-15-a-las-20-50-06.png",
@@ -30,8 +33,9 @@ function Gloverall (){
                 description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days."
             },
             {
-                url: "https://i.ibb.co/1dZspTW/Captura-de-Pantalla-2024-12-19-a-las-21-30-00.png",
-                description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days."
+                url: "https://i.ibb.co/JkKbXtf/gloverallnew.png",
+                description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days.",
+                textColor: "dark" 
             },
             {
                 url: "https://i.ibb.co/9v7ySrk/Captura-de-pantalla-2024-11-15-a-las-20-49-37.png",
@@ -46,15 +50,15 @@ function Gloverall (){
                 description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days."
             },
             {
-                url: "https://i.ibb.co/mFzVc5k/Captura-de-Pantalla-2024-12-27-a-las-13-02-42.png",
+                url: "https://i.ibb.co/P5Jh3Fr/glvoerallvintage.png",
                 description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days."
             },
             {
-                url: "https://i.ibb.co/r68ms7m/Captura-de-Pantalla-2024-12-27-a-las-12-55-31.png",
+                url: "https://i.ibb.co/Zgm4SbJ/escoces.jpg",
                 description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days."
             },
             {
-                url: "https://i.ibb.co/VJb0HKd/Captura-de-Pantalla-2024-12-27-a-las-12-55-56.png",
+                url: "https://i.ibb.co/wwZVHWc/naranja.jpg",
                 description: "Monty Duffle Coat in Arctic White. Styled by Kevis Manzi. Cooler days."
             },
             {

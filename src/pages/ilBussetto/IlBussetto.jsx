@@ -5,41 +5,45 @@ function IlBussetto (){
     const ilBussettoCarousel = {
         images: [
             {
-                url: "https://i.ibb.co/KVcd2RR/Il-Bussetto-for-Reliquary-SF-5835.webp",
-                description: "Showcase of Il Bussetto's artisanal leather wallets. Photography by Clara Rossi, Milan, Italy."
-            },
-            {
-                url: "https://i.ibb.co/Hz3HS98/Il-Bussetto-for-Reliquary-SF-5826.webp",
-                description: "Behind the scenes: crafting Il Bussetto's signature leather goods. Workshop in Florence, Italy."
-            },
-            {
-                url: "https://i.ibb.co/vXn9JrQ/ilbussetto.png",
-                description: "Showcase of Il Bussetto's artisanal leather wallets. Photography by Clara Rossi, Milan, Italy."
-            },
-            {
-                url: "https://i.ibb.co/G22rQcD/Captura-de-pantalla-2024-11-15-a-las-21-21-01.png",
-                description: "Behind the scenes: crafting Il Bussetto's signature leather goods. Workshop in Florence, Italy."
-            },
-            {
-                url: "https://i.ibb.co/wWmN62Z/try.png",
-                description: "Il Bussetto's premium leather accessories displayed in a minimalist editorial shoot."
+                url: "https://i.ibb.co/y86Ds65/Captura-de-pantalla-2024-11-15-a-las-21-12-36.png",
+                description: "Il Bussetto's premium leather accessories displayed in a minimalist editorial shoot.",
+                textColor: "dark" 
             },
             {
                 url: "https://i.ibb.co/T4Xpwm1/Captura-de-pantalla-2024-11-15-a-las-21-07.png",
                 description: "Il Bussetto's premium leather accessories displayed in a minimalist editorial shoot."
             },
             {
-                url: "https://i.ibb.co/WB6WTY2/Captura-de-pantalla-2024-11-15-a-las-21-15-copia.png",
+                url: "https://i.ibb.co/ws5BnpT/Il-Bussetto-for-Reliquary-SF-5835.png",
+                description: "Showcase of Il Bussetto's artisanal leather wallets. Photography by Clara Rossi, Milan, Italy."
+            },
+            {
+                url: "https://i.ibb.co/1zVDdDB/adapting.png",
+                description: "Behind the scenes: crafting Il Bussetto's signature leather goods. Workshop in Florence, Italy."
+            },
+            {
+                url: "https://i.ibb.co/vXn9JrQ/ilbussetto.png",
+                description: "Showcase of Il Bussetto's artisanal leather wallets. Photography by Clara Rossi, Milan, Italy."
+            },
+            // {
+            //     url: "https://i.ibb.co/Y3S3NjF/relleno.png",
+            //     description: "Behind the scenes: crafting Il Bussetto's signature leather goods. Workshop in Florence, Italy."
+            // },
+            {
+                url: "https://i.ibb.co/wWmN62Z/try.png",
+                description: "Il Bussetto's premium leather accessories displayed in a minimalist editorial shoot."
+            },
+            
+            {
+                url: "https://i.ibb.co/300Mm4m/gabardina.png",
                 description: "Il Bussetto's premium leather accessories displayed in a minimalist editorial shoot."
             },
             {
-                url: "https://i.ibb.co/cxVHhnb/Captura-de-pantalla-2024-11-15-a-las-21-08-28.png",
-                description: "Il Bussetto's premium leather accessories displayed in a minimalist editorial shoot."
+                url: "https://i.ibb.co/QjFyL9g/Captura-de-pantalla-2024-11-15-a-las-21-08-28.png",
+                description: "Il Bussetto's premium leather accessories displayed in a minimalist editorial shoot.",
+                textColor: "dark" 
             },
-            {
-                url: "https://i.ibb.co/y86Ds65/Captura-de-pantalla-2024-11-15-a-las-21-12-36.png",
-                description: "Il Bussetto's premium leather accessories displayed in a minimalist editorial shoot."
-            },
+            
             {
                 url: "https://i.ibb.co/2W6Mj4t/Captura-de-pantalla-2024-11-15-a-las-21-12.png",
                 description: "Il Bussetto's premium leather accessories displayed in a minimalist editorial shoot."
