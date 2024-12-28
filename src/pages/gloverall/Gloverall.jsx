@@ -79,15 +79,11 @@ function Gloverall (){
         socials: [
             {
                 name: "Instagram",
-                url: "https://instagram.com/gloverall"
+                url: "https://www.instagram.com/gloverall/"
             },
             {
-                name: "Facebook",
-                url: "https://facebook.com/gloverall"
-            },
-            {
-                name: "Pinterest",
-                url: "https://pinterest.com/gloverall"
+                name: "Website",
+                url: "https://www.gloverall.com/"
             }
         ],
         history: "Founded in 1951, Gloverall has been synonymous with quality British outerwear for over 70 years. The brand began by importing surplus military duffle coats after World War II, eventually developing their own signature styles that would come to define British fashion. \n\nToday, Gloverall continues to manufacture their iconic duffle coats in England, combining traditional craftsmanship with contemporary design. \n\nEach piece reflects the brand's commitment to quality materials and timeless style, maintaining their position as a leader in British heritage fashion."
