@@ -1,7 +1,7 @@
 # Swipe Agency Project
 
 ## Descripción
-Swipe Agency es una aplicación web desarrollada en React que muestra diferentes marcas de moda y calzado. La aplicación tiene dos versiones: desktop y mobile, con diseños y layouts específicos para cada una.
+SWIPE AGENCY es una agencia de representación de moda con sede en Bilbao, dedicada a promover marcas de moda y calzado en España y Portugal. Destacando por su autenticidad, sus marcas combinan diseño y tradición para ofrecer propuestas únicas y distintivas. Esta plataforma web, desarrollada en React, actúa como un "catálogo" digital, diseñado para ofrecer una experiencia óptima y adaptada a cada tipo de dispositivo. Con layouts exclusivos para desktop y mobile, tiene en cuenta las particularidades de la navegación en cada plataforma, asegurando una interacción visual y funcional cuidada y efectiva.
 
 ## Características Principales
 
