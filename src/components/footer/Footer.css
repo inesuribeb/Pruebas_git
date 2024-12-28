@@ -16,6 +16,10 @@
     align-items: left;
     background-color: black;
     border-bottom: 1px solid white;
+
+    letter-spacing: 1.3px;
+    font-family: 'InesItalic';
+    transform: skewX(-10deg);
 }
 
 .footer-container p {

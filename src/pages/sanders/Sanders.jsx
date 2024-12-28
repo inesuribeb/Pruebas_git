@@ -24,6 +24,15 @@ function Sanders (){
             },
             {
                 url: "https://i.ibb.co/BjpzNYh/1.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK.",
+            },
+            {
+                url: "https://i.ibb.co/MNd2HyD/Captura-de-Pantalla-2024-12-28-a-las-16-59-59.png",
+                description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK.",
+                textColor: "dark" 
+            },
+            {
+                url: "https://i.ibb.co/YdvrnTC/sandersfabric.png",
                 description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
             },
             {
@@ -84,7 +93,7 @@ function Sanders (){
                 url: "https://www.sanders-uk.com/"
             }
         ],
-        history: "Founded in 1873, Sanders & Sanders Ltd. is one of the oldest and most esteemed shoemakers in England. Based in Rushden, Northamptonshire, the heart of British shoemaking, Sanders has a long-standing tradition of producing high-quality, handcrafted footwear. \n\nKnown for their impeccable craftsmanship, durability, and timeless designs, Sanders shoes have been worn by style icons and professionals alike. From military boots to elegant brogues, every pair embodies the brand's commitment to excellence and heritage. \n\nToday, Sanders continues to merge traditional shoemaking techniques with contemporary style, ensuring their place as a staple in modern wardrobes."
+        history: "Founded in 1873, <i>Sanders & Sanders Ltd.</i> is one of the oldest and most esteemed shoemakers in England. Based in <i>Rushden, Northamptonshire</i>, the heart of British shoemaking, Sanders has a long-standing tradition of producing high-quality, handcrafted footwear. \n\nKnown for their <i>impeccable craftsmanship, durability, and timeless designs</i>, Sanders shoes have been worn by style icons and professionals alike. From <i>military boots</i> to <i>elegant brogues</i>, every pair embodies the brand's commitment to <i>excellence and heritage</i>. \n\nToday, Sanders continues to merge <i>traditional</i> shoemaking techniques with <i>contemporary</i> style, ensuring their place as a staple in modern wardrobes."
     };
     
     return (

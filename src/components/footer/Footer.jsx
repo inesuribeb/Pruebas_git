@@ -11,7 +11,7 @@ function Footer() {
                 link: "/sanders"
             },
             {
-                url: "https://i.ibb.co/1dZspTW/Captura-de-Pantalla-2024-12-19-a-las-21-30-00.png",
+                url: "https://i.ibb.co/HtZ5S0f/gloverallcarre.png",
                 title: "GLOVERALL",
                 link: "/gloverall"
             },

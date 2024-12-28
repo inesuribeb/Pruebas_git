@@ -60,30 +60,19 @@ function Carrusel({ content, className, withLinks }) {
     return (
         <div className={`carrusel-container-mobile ${className}`}>
 
-                <div
-                    className="carrusel-track"
-                    onTouchStart={onTouchStart}
-                    onTouchMove={onTouchMove}
-                    onTouchEnd={onTouchEnd}
-                    ref={carruselRef}
-                    style={{
-                        transform: `translateX(-${currentIndex * 80}%)`,
-                    }}
-                >
-                    {images.map((image, index) => (
-                        // <div
-                        //     key={index}
-                        //     className={`carrusel-slide ${index === currentIndex ? 'active' : ''}`}
-                        // >
-                            
-                        //     <img
-                        //         src={image.url}
-                        //         alt={image.description}
-                        //         className="carrusel-image"
-                        //     />
-                            
-                        // </div>
-                        <div key={index} className="carrusel-slide">
+            <div
+                className="carrusel-track"
+                onTouchStart={onTouchStart}
+                onTouchMove={onTouchMove}
+                onTouchEnd={onTouchEnd}
+                ref={carruselRef}
+                style={{
+                    transform: `translateX(-${currentIndex * 80}%)`,
+                }}
+            >
+                {images.map((image, index) => (
+                   
+                    <div key={index} className="carrusel-slide">
                         {withLinks ? (
                             <Link to={image.link}>
                                 <p className="carrusel-description">{image.description}</p>
@@ -91,29 +80,26 @@ function Carrusel({ content, className, withLinks }) {
                             </Link>
                         ) : (
                             <>
-                               <img
-                                src={image.url}
-                                alt={image.description}
-                                className="carrusel-image"
-                            />
+                                <img
+                                    src={image.url}
+                                    alt={image.description}
+                                    className="carrusel-image"
+                                />
                             </>
                         )}
                     </div>
 
-                    ))}
-                </div>
-
-                <div className="carrusel-info">
-                    {/* <div className="carrusel-counter">
-                    {currentIndex + 1} / {length}
-                </div> */}
-                    <p className={images[currentIndex].textColor}>
-                        {images[currentIndex].description}
-                    </p>
-                </div>
+                ))}
             </div>
-            );
+
+            <div className="carrusel-info">
+                <p className={images[currentIndex].textColor}>
+                    {images[currentIndex].description}
+                </p>
+            </div>
+        </div>
+    );
 }
 
-            export default Carrusel;
+export default Carrusel;
 

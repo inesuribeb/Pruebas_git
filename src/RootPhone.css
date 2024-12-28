@@ -2,6 +2,7 @@
   from {
     transform: translateY(-100%);
   }
+
   to {
     transform: translateY(0);
   }
@@ -11,6 +12,7 @@
   from {
     transform: translateY(0);
   }
+
   to {
     transform: translateY(-100%);
   }
@@ -21,6 +23,7 @@
     opacity: 0;
     transform: translateY(10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -31,6 +34,7 @@
   from {
     opacity: 1;
   }
+
   to {
     opacity: 0;
   }
@@ -38,54 +42,69 @@
 
 @keyframes titleDrop {
   0% {
-      transform: translateY(0); 
-      opacity: 0;
+    transform: translateY(0);
+    opacity: 0;
   }
+
   100% {
-      transform: translateY(3.5rem);  
-      opacity: 1;
+    transform: translateY(3.5rem);
+    opacity: 1;
   }
 }
 
 .header-mobile .main-title {
-    margin: 0;
-    font-size: 1.2rem;
+  margin: 0;
+  font-size: 1.2rem;
 
-    position:relative;
- }
+  position: relative;
+  letter-spacing: 1.3px;
 
- .nav-title {
+}
+
+.nav-title {
   position: absolute;
   font-size: 1.2rem;
   margin: 0;
   left: 1rem;
   animation: titleDrop 1s ease-out forwards;
-  text-decoration: none; 
-  color: black; 
-  font-weight: bold; 
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1.3px;
 
-  top: var(--header-title-position, 1rem); 
+
+  top: var(--header-title-position, 1rem);
+
+  /* font-family: 'InesRegular';
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    transform: scaleY(1.01); */
 }
 
 
 
 .header-mobile {
-  position: fixed; 
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center; 
-  padding: 1rem; 
-  z-index: 2000; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  z-index: 2000;
+
+  font-family: 'InesRegular';
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  transform: scaleY(1.01);
 }
 
 .menu-icon {
   cursor: pointer;
   right: 1rem;
   top: 1rem;
-  z-index: 2000; 
+  z-index: 2000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -143,7 +162,7 @@
 
 .nav-item-mobile a {
   text-decoration: none;
-  color: black; 
+  color: black;
   font-size: 1.4rem;
 }
 
@@ -166,7 +185,7 @@
 
 .second-nav-item-mobile a {
   text-decoration: none;
-  color: black; 
+  color: black;
   font-size: 1rem;
 }
 
@@ -176,7 +195,7 @@
 }
 
 .menu-icon-close {
-  opacity: 0; 
+  opacity: 0;
 }
 
 .menu-icon-close.fade-in {

@@ -1,4 +1,4 @@
-.contact-phone-container {
+/* .contact-phone-container {
     background-color: white;
 }
 
@@ -43,17 +43,65 @@
 }
 
 .email-phone {
-    /* top: 380px; */
     top: 46.3vh;
     font-size: 16.5px;
     padding-left: 7px;
-    color: white;
+    color: black;
 }
 
 .instagram-phone {
-    /* top: 400px; */
     top: 52vh;
     padding-left: 11px;
     font-size: 16.5px;
-    color: brown;
+    color: black;
+} */
+
+.contact-phone-container {
+    background-color: #FFF093;
+    margin: -20px;
+    padding: 1rem;
+    max-width: 800px;
+    font-family: 'InesRegular';
 }
+
+.contact-phone-text {
+    padding: 20px;
+    margin-top: 70px;
+    font-size: 28px;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    letter-spacing: 0.3px;
+}
+
+.contact-phone-text em {
+    font-family: 'InesItalic';
+}
+
+.email-phone {
+    padding-left: 20px;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+.instagram-phone {
+    padding-left: 20px;
+
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.instagram-phone a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.instagram-phone svg {
+    width: 16px;
+    height: 16px;
+    transform: translateY(1px);
+}
+

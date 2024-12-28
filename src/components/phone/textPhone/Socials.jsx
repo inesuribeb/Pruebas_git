@@ -1,5 +1,4 @@
 import InstagramIcon from '@mui/icons-material/Instagram';
-import FacebookIcon from '@mui/icons-material/Facebook';
 import LanguageIcon from '@mui/icons-material/Language';
 
 import './Socials.css'
@@ -12,9 +11,7 @@ function Socials({ instagram, facebook, website }) {
                 <a href={instagram} target="_blank" rel="noopener noreferrer">
                     <InstagramIcon sx={{ color: '#000000' }} />
                 </a>
-                <a href={facebook} target="_blank" rel="noopener noreferrer">
-                    <FacebookIcon sx={{ color: '#000000' }} />
-                </a>
+            
                 <a href={website} target="_blank" rel="noopener noreferrer">
                     <LanguageIcon sx={{ color: '#000000' }} />
                 </a>

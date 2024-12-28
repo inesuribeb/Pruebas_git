@@ -11,7 +11,6 @@ function Info({ logo, title, origin, socials = [], history, brandClass}) {
                 <TruncatedAbout></TruncatedAbout>
             </div>
             
-            {/* Sacamos el logo fuera del info-container */}
             <div className="logo-wrapper">
                 <img src={logo} alt={title} />
             </div>
@@ -41,7 +40,8 @@ function Info({ logo, title, origin, socials = [], history, brandClass}) {
 
                     <div className="info-right">
                         <h5>History</h5>
-                        <p>{history}</p>
+                        {/* <p>{history}</p> */}
+                        <p dangerouslySetInnerHTML={{ __html: history }}></p>
                     </div>
                 </div>
             </div>

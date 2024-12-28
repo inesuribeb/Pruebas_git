@@ -1,7 +1,7 @@
 .gloverall-phone-container {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* O el espacio que prefieras entre elementos */
+    gap: 20px; 
     padding: 20px;
 }
 .gloverall-military {

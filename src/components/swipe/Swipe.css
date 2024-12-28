@@ -9,6 +9,18 @@
     height: 100%;
 }
 
+.swipe-container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 1px;
+    box-shadow: 0 0 60px 90px #FFF093;
+    z-index: 1; 
+}
+
 .first-column-swipe {
     flex: 1;
     min-width: 45%;
@@ -19,7 +31,7 @@
     min-width: 45%;
     display: flex;
     flex-direction: column;
-    background-color: #E8E3D7;
+    /* background-color: #E8E3D7; */
     background-color: #FFF093;
     overflow-y: scroll;
     padding-bottom: 52px;
@@ -35,7 +47,7 @@
     line-height: 1.8;
 
     letter-spacing: 0.5px;
-    transform: scaleY(1.01);
+    transform: scaleY(1.03);
 
     /* columns: 2 auto; 
     column-gap: 80px; */
@@ -98,3 +110,4 @@
     transform: scaleY(1.01);
     font-family: 'InesRegular';
 }
+

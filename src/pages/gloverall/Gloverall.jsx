@@ -90,7 +90,7 @@ function Gloverall (){
                 url: "https://www.gloverall.com/"
             }
         ],
-        history: "Founded in 1951, Gloverall has been synonymous with quality British outerwear for over 70 years. The brand began by importing surplus military duffle coats after World War II, eventually developing their own signature styles that would come to define British fashion. \n\nToday, Gloverall continues to manufacture their iconic duffle coats in England, combining traditional craftsmanship with contemporary design. \n\nEach piece reflects the brand's commitment to quality materials and timeless style, maintaining their position as a leader in British heritage fashion."
+        history: "Founded in 1951, Gloverall has been synonymous with <i>quality British outerwear</i> for over 70 years. The brand began by importing surplus <i>military duffle coats</i> after World War II, eventually developing their own <i>signature styles</i> that would come to define British fashion. \n\nToday, Gloverall continues to manufacture their <i>iconic duffle coats</i> in England, combining <i>traditional</i> craftsmanship with <i>contemporary</i> design. \n\nEach piece reflects the brand's commitment to <i>quality materials</i> and <i>timeless style</i>, maintaining their position as a leader in British heritage fashion."
     };
 
     return (
