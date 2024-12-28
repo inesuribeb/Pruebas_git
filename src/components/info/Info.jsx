@@ -1,4 +1,5 @@
 import TruncatedAbout from '../buttons/TruncatedAbout';
+import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import './Info.css'
 import '../../../public/fonts/fonts.css'
 
@@ -24,7 +25,7 @@ function Info({ logo, title, origin, socials = [], history, brandClass}) {
                         </div>
 
                         <div className="info-socials">
-                            <h5>Socials</h5>
+                            <h5>Official Sites</h5>
                             {socials.map((social, index) => (
                                 <a
                                 key={index}
@@ -32,7 +33,7 @@ function Info({ logo, title, origin, socials = [], history, brandClass}) {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                {social.name}
+                                {social.name} <ArrowOutwardIcon></ArrowOutwardIcon>
                             </a>
                             ))}
                         </div>

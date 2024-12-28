@@ -4,6 +4,9 @@
     width: 100%;
     position: relative;
     z-index: 1;
+
+    letter-spacing: 0.3px;
+    transform: scaleY(1.01);
 }
 
 .show-more-btn {
@@ -17,6 +20,9 @@
     display: inline;
     text-decoration: underline;
 
+    letter-spacing: 0.3px;
+    transform: scaleY(1.01);
+
 }
 
 h3 {
@@ -27,5 +33,5 @@ h3 {
 }
 
 .second-column-swipe .truncated-about {
-    margin-bottom: 2rem; /* O el espacio que necesites */
+    margin-bottom: 2rem; 
 }

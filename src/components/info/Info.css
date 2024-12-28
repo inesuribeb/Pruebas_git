@@ -47,6 +47,8 @@
     font-size: 20px;
     font-family: 'InesItalic';
     letter-spacing: 1.2px;
+    margin-bottom: 1.5rem;
+    transform: skewX(-5deg);
 }
 
 .info-header {
@@ -86,16 +88,14 @@
     gap: 0.5rem;
 }
 
+.info-socials a svg {
+    font-size: 14px;
+    transform: translateY(2px);
+}
+
 .info-socials a {
     text-decoration: none;
     color: black;
-    
-}
-
-.info-origin h5{
-    margin-bottom: 0.5rem;
-    /* text-decoration: underline; */
-    /* border-bottom: 1px solid black; */
     
 }
 

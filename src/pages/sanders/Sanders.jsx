@@ -15,7 +15,7 @@ function Sanders (){
                 textColor: "dark" 
             },
             {
-                url: "https://i.ibb.co/HpjWSjh/Captura-de-pantalla-2024-11-15-a-las-20-18-04.png",
+                url: "https://i.ibb.co/qy8JDk6/sanders.png",
                 description: "Sanders' timeless footwear styled with modern tailoring. Shot in London, UK."
             },
             {
