@@ -42,7 +42,7 @@ Componente reutilizable que muestra:
 - Descripción corta de la agencia.
 - Botón "Read more" que navega a la página principal.
 
-### TruncatedAbout
+### Home
 - Página principal con información sobre la agencia.
 - Botón "Contact us" que navega a la página de contacto.
 
