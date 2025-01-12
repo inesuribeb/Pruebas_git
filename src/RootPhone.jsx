@@ -1,10 +1,11 @@
 import { Outlet, Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import './RootPhone.css'
 import DragHandleIcon from "@mui/icons-material/DragHandle";
 import CloseIcon from '@mui/icons-material/Close';
 import { useState, useEffect } from 'react';
-
-import FadeInContent from './components/loadingBar/FadeInContent.jsx';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+// import FadeInContent from './components/loadingBar/FadeInContent.jsx';
 import Footer from './components/footer/Footer.jsx';
 
 
@@ -12,6 +13,7 @@ function RootPhone() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showContent, setShowContent] = useState(false);
   const [isClosing, setIsClosing] = useState(false);
+  const location = useLocation();
 
   const openMenu = () => {
     setIsMenuOpen(true);
@@ -40,6 +42,13 @@ function RootPhone() {
     }
   }, [isMenuOpen]);
 
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' 
+    });
+  }, [location.pathname]); 
+
   return (
     <>
       <header className="header-mobile">
@@ -67,12 +76,15 @@ function RootPhone() {
             {showContent && (
               <>
                 <ul className={`nav-list-mobile ${isClosing ? 'fade-out' : 'fade-in'}`}>
-                  <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/sanders">Sanders</Link></li>
-                  <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/gloverall">Gloverall</Link></li>
-                  <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/moonstar_jp">Moonstar</Link></li>
-                  <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/ilBussetto">Il Bussetto</Link></li>
-                  <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/moonstar_810s">Moonstar 810s</Link></li>
-                  <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/shoesLikePottery">Shoes Like Pottery</Link></li>
+                  <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/sanders">Sanders <KeyboardArrowRightIcon /></Link></li>
+                  <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/gloverall">Gloverall <KeyboardArrowRightIcon /></Link></li>
+                  <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/moonstar_jp">Moonstar <KeyboardArrowRightIcon /></Link></li>
+                  <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/ilBussetto">Il Bussetto <KeyboardArrowRightIcon /></Link></li>
+                  <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/moonstar_810s">Moonstar 810s <KeyboardArrowRightIcon /></Link></li>
+                  <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/shoesLikePottery">Shoes Like Pottery <KeyboardArrowRightIcon /></Link></li>
+                  <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/shangriLaHeritage">Shangri-La Heritage <KeyboardArrowRightIcon /></Link></li>
+                  <li className="nav-item-mobile"><Link onClick={handleNavClick} to="/sunray">Sunray Sportswear <KeyboardArrowRightIcon /></Link></li>
+
                 </ul>
 
                 <ul className={`second-nav-list-mobile ${isClosing ? 'fade-out' : 'fade-in'}`}>
@@ -85,10 +97,10 @@ function RootPhone() {
         )}
       </header>
 
-      <main className="main-mobile">
-      <FadeInContent>
+      <main className="main-mobile" key={location.pathname}>
+      {/* <FadeInContent> */}
           <Outlet />
-        </FadeInContent>
+        {/* </FadeInContent> */}
       </main>
       <footer>
         <Footer></Footer>

@@ -34,6 +34,16 @@ function Footer() {
                 url: "https://i.ibb.co/ZJKDr9q/38020017-1.jpg",
                 title: "SHOES LIKE POTTERY",
                 link: "/shoesLikePottery"
+            },
+            {
+                url: "https://shangrilaheritage.it/wp-content/uploads/2022/07/shangri-la-heritage-chiodo-brown-fur-collar-black-horsehide-jacket-lifestyle-3.jpg",
+                title: "Shangri-La",
+                link: "/shangriLaHeritage"
+            },
+            {
+                url: "https://i.ibb.co/pLR5n36/sunray7.jpg",
+                title: "Sunray",
+                link: "/sunray"
             }
         ]
     };

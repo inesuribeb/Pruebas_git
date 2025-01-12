@@ -80,7 +80,7 @@ function SandersPhone() {
     };
     return (
         <div>
-            <Logo url="https://www.sanders-uk.com/images/modules/promo_units/1623656432-53412900.png" />
+            <Logo url="https://sanders.jp/cdn/shop/files/logo_wh_500x.png?v=1636988252" />
             <Origin brandOrigin="Rushden, United Kingdom" />
             <Carrusel content={sandersCarrusel} />
             <h3 className='history-phone-title'>History</h3>
