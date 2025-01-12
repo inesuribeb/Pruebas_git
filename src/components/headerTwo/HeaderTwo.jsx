@@ -123,6 +123,15 @@ function HeaderTwo() {
                                     </div>
                                 </Link>
                             </li>
+
+                            <li className="nav-two-item">
+                                <Link to="/shangriLaHeritage" onClick={toggleMenu}>
+                                    Shangri-La Heritage
+                                    <div className="hover-two-image">
+                                        <img src="https://i.ibb.co/ZJKDr9q/38020017-1.jpg" alt="Shoes Like Pottery" />
+                                    </div>
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </nav>

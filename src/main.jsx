@@ -35,6 +35,7 @@ const IlBussetto = React.lazy(() => import('./pages/ilBussetto/IlBussetto'));
 const Moonstar_810s = React.lazy(() => import('./pages/moonstar_810s/Moonstar_810'));
 const ShoesLikePottery = React.lazy(() => import('./pages/shoesLikePottery/ShoesLikePottery'));
 const Contact = React.lazy(() => import('./pages/contact/Contact.jsx'))
+const Shangrila = React.lazy(() => import('./pages/shangri-la-heritage/Shangrila.jsx'))
 
 const MobileSwipe = React.lazy(() => import('./components/swipe/SwipePhone.jsx'));
 const MobileSanders = React.lazy(() => import('./pages/sanders/SandersPhone.jsx'));
@@ -44,6 +45,7 @@ const MobileIlBussetto = React.lazy(() => import('./pages/ilBussetto/IlBussettoP
 const MobileMoonstar810s = React.lazy(() => import('./pages/moonstar_810s/Moonstar_810sPhone'));
 const MobileShoesLikePottery = React.lazy(() => import('./pages/shoesLikePottery/ShoesLikePotteryPhone'));
 const MobileContact = React.lazy(() => import('./pages/contact/ContactPhone.jsx'))
+const MobileShangrila = React.lazy(() => import('./pages/shangri-la-heritage/ShangrilaPhone.jsx'))
 
 const ResponsiveComponent = ({ MobileVersion, DesktopVersion }) => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
@@ -126,6 +128,13 @@ const router = createBrowserRouter([
         element: <ResponsiveComponent 
           MobileVersion={MobileContact} 
           DesktopVersion={Contact} 
+        />,
+      },
+      {
+        path: "/shangriLaHeritage",  
+        element: <ResponsiveComponent 
+          MobileVersion={MobileShangrila} 
+          DesktopVersion={Shangrila} 
         />,
       },
     ],
