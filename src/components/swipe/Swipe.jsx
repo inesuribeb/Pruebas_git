@@ -21,7 +21,7 @@ function Swipe() {
             //     description: ""
             // },
             {
-                url: "https://i.ibb.co/bB6Twhp/loguitodos.jpg",
+                url: "https://i.ibb.co/T8BMR7S/playa.png",
                 description: ""
             },
         ]
@@ -51,11 +51,11 @@ function Swipe() {
                             </button>
                         )}
                     </div>
-                    <div className="contact-button-container">
+                    {/* <div className="contact-button-container">
                         <Link to="/contact" className="contact-button">
                             CONTACT US
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

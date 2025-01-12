@@ -9,6 +9,10 @@ function Sunray (){
                 description: "",
             },
             {
+                url: "https://i.shgcdn.com/ce1f369c-eb74-4907-8a6e-a47a384c02c0/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+                description: "",
+            },
+            {
                 url: "https://i.shgcdn.com/5fd4dc2a-4a29-4824-b68c-94f91db52bd9/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
                 description: "",
             },
@@ -36,10 +40,6 @@ function Sunray (){
                 url: "https://i.ibb.co/hdNQV9D/sunray2.jpg",
                 description: "",
                 textColor: "dark"
-            },
-            {
-                url: "https://i.shgcdn.com/ce1f369c-eb74-4907-8a6e-a47a384c02c0/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
-                description: "",
             },
             {
                 url: "https://i.ibb.co/9nmTmjf/sunray9.jpg",

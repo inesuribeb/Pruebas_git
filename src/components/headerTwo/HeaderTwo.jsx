@@ -84,7 +84,7 @@ function HeaderTwo() {
                                     <Link to="/moonstar_810s" onClick={toggleMenu}>
                                         MOONSTAR 810s
                                         <div className="hover-two-image">
-                                            <img src="https://i.ibb.co/25ZtQyN/htdht.png" alt="Moonstar 810s" />
+                                            <img src="https://i.ibb.co/hL48wcs/STUDEN-10.jpg" alt="Moonstar 810s" />
                                         </div>
                                     </Link>
                                 </li>
@@ -107,7 +107,7 @@ function HeaderTwo() {
                                     <Link to="/gloverall" onClick={toggleMenu}>
                                         GLOVERALL
                                         <div className="hover-two-image">
-                                            <img src="https://i.ibb.co/1dZspTW/Captura-de-Pantalla-2024-12-19-a-las-21-30-00.png" alt="Gloverall Preview" />
+                                            <img src="https://i.ibb.co/jGjpm4T/gloverall1.png" alt="Gloverall Preview" />
                                         </div>
                                     </Link>
                                 </li>
@@ -116,7 +116,7 @@ function HeaderTwo() {
                                     <Link to="/ilBussetto" onClick={toggleMenu}>
                                         IL BUSSETTO
                                         <div className="hover-two-image">
-                                            <img src="https://i.ibb.co/SyMV84H/Captura-de-pantalla-2024-11-15-a-las-21-22.png" alt="Il Bussetto" />
+                                            <img src="https://i.ibb.co/300Mm4m/gabardina.png" alt="Il Bussetto" />
                                         </div>
                                     </Link>
                                 </li>
