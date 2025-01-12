@@ -1,34 +1,8 @@
 .header-two-desktop {
-    /* width: 100%; */
     position: relative;
-}
-
-.hamburger-two-button {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1001;
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    padding: 10px;
-    color: black;
-}
-
-.brands-container {
-    text-align: center;
-    width: 100%;
-    max-width: 800px;
-    /* o el ancho que prefieras */
-}
-
-.header-subtitle {
-    font-size: 28px;
-    margin-bottom: 40px;
-    font-weight: normal;
     font-family: 'InesRegular';
-    /* o la fuente que estés usando */
+    overflow-x: hidden;
+
 }
 
 .desktop-two-nav {
@@ -37,18 +11,60 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background: white;
+    background: #F9F6E8;
     z-index: 1000;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 0.95;
+    gap: 60px;
+    opacity: 0;
+    animation: fadeIn 0.3s ease-in-out 0.4s forwards;
 }
 
-.desktop-two-nav ul {
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.95;
+    }
+}
+
+.brands-container {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-subtitle {
+    font-size: 28px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.columns-container {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    width: 100%;
+}
+
+.footwear-column,
+.apparel-column {
     list-style: none;
     padding: 0;
     margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.products-type-title {
+    font-size: 18px;
+    font-weight: normal;
     text-align: center;
 }
 
@@ -58,25 +74,36 @@
 }
 
 .nav-two-item a {
-    text-decoration: none;
     color: black;
+    text-decoration: none;
     font-size: 24px;
-    font-weight: 300;
+    display: block;
     transition: all 0.3s ease;
 }
 
 .nav-two-item a:hover {
-    opacity: 0.7;
+    -webkit-text-stroke: 1px rgba(0,0,0,0.7); 
 }
 
-.hover-two-image {
-    display: none;
-    position: absolute;
-    right: -200px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 150px;
-    height: auto;
+.about-us-container {
+    text-align: center;
+    width: 100%;
+    background-color: #D3CEB8;
+
+    border-top: 2px solid #252525;
+    margin-top: auto; 
+    padding: 10px 0; 
+    bottom: 0;
+    left: 0;
+}
+
+.about-us-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
 }
 
 .nav-two-item:hover .hover-two-image {
@@ -86,13 +113,85 @@
 .hover-two-image img {
     width: 100%;
     height: auto;
+    opacity: 1 !important;
 }
 
-/* .header-two-swipe,
-  .header-two-gloverall,
-  .header-two-sanders,
-  .header-two-moonstar,
-  .header-two-ilbussetto,
-  .header-two-moonstar_810s,
-  .header-two-shoesLikePottery {
-  } */
+.hover-two-image {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: auto;
+    z-index: 1002;
+}
+
+.footwear-column .hover-two-image {
+    right: auto;
+    left: -250px; 
+}
+
+.apparel-column .hover-two-image {
+    right: -250px;
+    left: auto;
+}
+
+
+
+.hamburger-two-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger-line {
+    width: 18px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hamburger-line.top {
+    transform: translateY(-6px);
+}
+
+.hamburger-line.bottom {
+    transform: translateY(6px);
+}
+
+.hamburger-two-button.active .hamburger-line.top {
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.hamburger-two-button.active .hamburger-line.bottom {
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.hamburger-two-button.active .hamburger-line.top,
+.hamburger-two-button.active .hamburger-line.middle,
+.hamburger-two-button.active .hamburger-line.bottom {
+    transition: transform 0.2s ease-in-out 0.2s;
+}
+
+.hamburger-two-button.active .hamburger-line.top,
+.hamburger-two-button.active .hamburger-line.middle {
+    transform: rotate(45deg);
+}
+
+.hamburger-two-button.active .hamburger-line.bottom {
+    transform: rotate(-45deg);
+}

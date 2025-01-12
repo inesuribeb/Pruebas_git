@@ -60,11 +60,11 @@ const ResponsiveComponent = ({ MobileVersion, DesktopVersion }) => {
   // );
   return (
     <Suspense fallback={<div>Loading...</div>}>
-      <FadeInContent>
+      {/* <FadeInContent> */}
         <Suspense fallback={<div>Loading content...</div>}>
           {isMobile ? <MobileVersion /> : <DesktopVersion />}
         </Suspense>
-      </FadeInContent>
+      {/* </FadeInContent> */}
     </Suspense>
   );
 

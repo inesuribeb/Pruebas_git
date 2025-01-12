@@ -4,8 +4,9 @@ body.desktop {
   place-items: center;
   min-width: 320px;
   overflow: hidden;
-
+  overflow-x: hidden;
   height: 100vh;
+
 }
 * {
   box-sizing: border-box;

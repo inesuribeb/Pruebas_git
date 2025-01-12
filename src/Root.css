@@ -10,3 +10,16 @@
         height: auto;
     }
 }
+
+.main-desktop-general {
+    animation: fadeInDesktop 0.5s ease-in forwards;
+}
+
+@keyframes fadeInDesktop {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }

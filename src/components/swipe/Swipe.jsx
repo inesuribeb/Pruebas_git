@@ -12,14 +12,18 @@ function Swipe() {
 
     const swipeCarousel = {
         images: [
+            // {
+            //     url: "https://i.ibb.co/Y0yHTnL/swipe-Logo.png",
+            //     description: ""
+            // },
+            // {
+            //     url: "https://i.ibb.co/1MQB1vb/swipe-Blue-Logo.png",
+            //     description: ""
+            // },
             {
-                url: "https://i.ibb.co/Y0yHTnL/swipe-Logo.png",
+                url: "https://i.ibb.co/bB6Twhp/loguitodos.jpg",
                 description: ""
             },
-            {
-                url: "https://i.ibb.co/1MQB1vb/swipe-Blue-Logo.png",
-                description: ""
-            }
         ]
     };
 

@@ -72,7 +72,7 @@ function Shangrila (){
                 url: "https://shangrilaheritage.it/"
             }
         ],
-        history: "Shangri-La Heritage is an Italian brand renowned for its commitment to crafting <i>vintage-inspired</i> garments that blend <i>traditional craftsmanship</i> with <i>timeless design</i>.\n\nFounded in Bergamo, the brand specializes in leather jackets and apparel, meticulously handcrafted using <i>classic artisanal techniques</i> and premium materials such as <i>high-quality Italian leather</i> and natural fabrics.\n\nDrawing inspiration from the aesthetics of the <i>1940s and 1950s</i>, Shangri-La Heritage captures the spirit of <i>exploration</i> and <i>classic motorcycling</i>, offering garments that are both durable and full of character.\n\nEach piece is a tribute to <i>vintage style</i>, seamlessly combining <i>functionality</i> and <i>elegance</i> to create unique products that stand the test of time."
+        history: "Shangri-La Heritage is an Italian brand renowned for its commitment to crafting <i>vintage-inspired</i> garments that blend <i>traditional craftsmanship</i> with <i>timeless design</i>.\n\nFounded in Bergamo, the brand specializes in leather jackets and apparel, meticulously handcrafted using <i>classic artisanal techniques</i> and premium materials such as <i>high-quality Italian leather</i> and natural fabrics.\n\nDrawing inspiration from the aesthetics of the <i>1940s and 1950s</i>, Shangri-La Heritage captures the spirit of <i>exploration</i> and <i>classic motorcycling</i>, offering garments that are both durable and full of character."
     };
     
     return (

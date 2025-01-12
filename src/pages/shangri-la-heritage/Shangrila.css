@@ -14,3 +14,28 @@
     box-shadow: 0 0 60px 90px  #002117;
     z-index: 1; 
 }
+
+.info-container.shangrila-page {
+    /* color: #717171; */
+    color: white;
+}
+
+.info-container.shangrila-page h5 {
+    color: white;
+}
+
+.info-container.shangrila-page .info-socials a {
+    color: white;
+}
+
+.shangrila-page .logo-wrapper img {
+    filter: invert(1);
+}
+
+.header-two-shangrila .hamburger-line {
+    background-color: white;
+}
+.header-two-shangrila .hamburger-two-button.active .hamburger-line {
+    background-color: black;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}

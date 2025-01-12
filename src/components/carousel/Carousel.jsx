@@ -53,6 +53,7 @@ function Carousel({ content }) {
                     id="carousel-image"
                     src={images[currentIndex].url}
                     alt={images[currentIndex].description}
+                    loading="lazy"
                 />
             </div>
 

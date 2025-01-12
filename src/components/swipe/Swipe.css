@@ -17,7 +17,7 @@
     transform: translateX(-50%);
     width: 100px;
     height: 1px;
-    box-shadow: 0 0 60px 90px #FFF093;
+    box-shadow: 0 0 60px 90px #D4CFC5;
     z-index: 1; 
 }
 
@@ -32,7 +32,7 @@
     display: flex;
     flex-direction: column;
     /* background-color: #E8E3D7; */
-    background-color: #FFF093;
+    background-color: #D4CFC5;
     overflow-y: scroll;
     padding-bottom: 52px;
 }
