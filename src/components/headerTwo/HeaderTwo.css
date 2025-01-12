@@ -1,0 +1,98 @@
+.header-two-desktop {
+    /* width: 100%; */
+    position: relative;
+}
+
+.hamburger-two-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    color: black;
+}
+
+.brands-container {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    /* o el ancho que prefieras */
+}
+
+.brands-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+    font-weight: normal;
+    font-family: 'InesRegular';
+    /* o la fuente que estés usando */
+}
+
+.desktop-two-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.95;
+}
+
+.desktop-two-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav-two-item {
+    margin: 30px 0;
+    position: relative;
+}
+
+.nav-two-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+
+.nav-two-item a:hover {
+    opacity: 0.7;
+}
+
+.hover-two-image {
+    display: none;
+    position: absolute;
+    right: -200px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: auto;
+}
+
+.nav-two-item:hover .hover-two-image {
+    display: block;
+}
+
+.hover-two-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* .header-two-swipe,
+  .header-two-gloverall,
+  .header-two-sanders,
+  .header-two-moonstar,
+  .header-two-ilbussetto,
+  .header-two-moonstar_810s,
+  .header-two-shoesLikePottery {
+  } */

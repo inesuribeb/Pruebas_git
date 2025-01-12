@@ -7,7 +7,7 @@ function TruncatedAbout({ hideButton = false }) {
     return (
         <div className="truncated-about">
             <h3>
-                Swipe Agency is a fashion representation agency based in Bilbao, promoting brands across Spain and Portugal.
+                Swipe Agency is a fashion representation agency based in Bilbao,<br></br> promoting brands across Spain and Portugal.
                 {!hideButton && (
                     <button 
                         onClick={() => navigate('/')} 

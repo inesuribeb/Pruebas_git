@@ -1,15 +1,15 @@
 import TruncatedAbout from '../buttons/TruncatedAbout';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
-import './Info.css'
+import './InfoTwo.css'
 import '../../../public/fonts/fonts.css'
 
 
 function Info({ logo, title, origin, socials = [], history, brandClass}) {
     return (
         <>
-            <div className='intro'>
+            {/* <div className='intro'>
                 <TruncatedAbout></TruncatedAbout>
-            </div>
+            </div> */}
             
             <div className="logo-wrapper">
                 <img src={logo} alt={title} />
