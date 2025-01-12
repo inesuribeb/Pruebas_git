@@ -46,7 +46,7 @@ function HeaderTwo() {
             {isMenuOpen && (
                 <nav className="desktop-two-nav">
                     <div className="about-us-container">
-                        <h2 className="about-us-title">Swipe Agency</h2>
+                        <h2 className="header-subtitle">Swipe Agency</h2>
                         <ul>
                             <li className="nav-two-item">
                                 <Link to="/" onClick={toggleMenu}>
@@ -68,7 +68,7 @@ function HeaderTwo() {
                             </ul>
                     </div>
                     <div className="brands-container">
-                        <h2 className="brands-title">Our brands</h2>
+                        <h2 className="header-subtitle">Our brands</h2>
                         <ul>
                             <li className="nav-two-item">
                                 <Link to="/sanders" onClick={toggleMenu}>
@@ -128,7 +128,16 @@ function HeaderTwo() {
                                 <Link to="/shangriLaHeritage" onClick={toggleMenu}>
                                     Shangri-La Heritage
                                     <div className="hover-two-image">
-                                        <img src="https://i.ibb.co/ZJKDr9q/38020017-1.jpg" alt="Shoes Like Pottery" />
+                                        <img src="https://shangrilaheritage.it/wp-content/uploads/2022/07/shangri-la-heritage-chiodo-brown-fur-collar-black-horsehide-jacket-lifestyle-3.jpg" alt="Shangri-la jacket" />
+                                    </div>
+                                </Link>
+                            </li>
+
+                            <li className="nav-two-item">
+                                <Link to="/sunray" onClick={toggleMenu}>
+                                    Sunray Sportswear
+                                    <div className="hover-two-image">
+                                        <img src="https://i.ibb.co/pLR5n36/sunray7.jpg" alt="Sunray t-shirts" />
                                     </div>
                                 </Link>
                             </li>

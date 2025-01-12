@@ -1,5 +1,5 @@
 .shangrila-page .info-section {
-    background-color: #496A4F;
+    background-color: #002117;
     /* background-color: #8D887F; */
 }
 
@@ -11,6 +11,6 @@
     transform: translateX(-50%);
     width: 100px;
     height: 1px;
-    box-shadow: 0 0 60px 90px  #496A4F;
+    box-shadow: 0 0 60px 90px  #002117;
     z-index: 1; 
 }

@@ -36,6 +36,7 @@ const Moonstar_810s = React.lazy(() => import('./pages/moonstar_810s/Moonstar_81
 const ShoesLikePottery = React.lazy(() => import('./pages/shoesLikePottery/ShoesLikePottery'));
 const Contact = React.lazy(() => import('./pages/contact/Contact.jsx'))
 const Shangrila = React.lazy(() => import('./pages/shangri-la-heritage/Shangrila.jsx'))
+const Sunray = React.lazy(() => import('./pages/sunray/Sunray.jsx'))
 
 const MobileSwipe = React.lazy(() => import('./components/swipe/SwipePhone.jsx'));
 const MobileSanders = React.lazy(() => import('./pages/sanders/SandersPhone.jsx'));
@@ -46,6 +47,7 @@ const MobileMoonstar810s = React.lazy(() => import('./pages/moonstar_810s/Moonst
 const MobileShoesLikePottery = React.lazy(() => import('./pages/shoesLikePottery/ShoesLikePotteryPhone'));
 const MobileContact = React.lazy(() => import('./pages/contact/ContactPhone.jsx'))
 const MobileShangrila = React.lazy(() => import('./pages/shangri-la-heritage/ShangrilaPhone.jsx'))
+const MobileSunray = React.lazy(() => import('./pages/sunray/SunrayPhone.jsx'))
 
 const ResponsiveComponent = ({ MobileVersion, DesktopVersion }) => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
@@ -135,6 +137,13 @@ const router = createBrowserRouter([
         element: <ResponsiveComponent 
           MobileVersion={MobileShangrila} 
           DesktopVersion={Shangrila} 
+        />,
+      },
+      {
+        path: "/sunray",  
+        element: <ResponsiveComponent 
+          MobileVersion={MobileSunray} 
+          DesktopVersion={Sunray} 
         />,
       },
     ],
