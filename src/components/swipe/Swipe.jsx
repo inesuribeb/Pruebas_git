@@ -13,15 +13,11 @@ function Swipe() {
     const swipeCarousel = {
         images: [
             // {
-            //     url: "https://i.ibb.co/Y0yHTnL/swipe-Logo.png",
-            //     description: ""
-            // },
-            // {
-            //     url: "https://i.ibb.co/1MQB1vb/swipe-Blue-Logo.png",
+            //     url: "https://i.ibb.co/T8BMR7S/playa.png",
             //     description: ""
             // },
             {
-                url: "https://i.ibb.co/T8BMR7S/playa.png",
+                url: "https://i.ibb.co/ZWWsqqp/homeswipeweb.png",
                 description: ""
             },
         ]
