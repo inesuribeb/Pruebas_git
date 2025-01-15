@@ -17,25 +17,25 @@ function Carousel({ content }) {
     };
 
     return (
-        <div className="carousel-container">
-            {/* <div className="carousel-navigation"> */}
-            <div className={`carousel-navigation ${images[currentIndex].textColor}`}>
+        <div className="carousel-container" data-multiple={length > 1}>
 
-
-                <div className="carousel-info">
-                    <p>{images[currentIndex].description}</p>
-                    <div className="carousel-counter">
-                        {currentIndex + 1} / {length}
+            {length > 1 && (
+                <div className={`carousel-navigation ${images[currentIndex].textColor}`}>
+                    <div className="carousel-info">
+                        <p>{images[currentIndex].description}</p>
+                        <div className="carousel-counter">
+                            {currentIndex + 1} / {length}
+                        </div>
                     </div>
-                </div>
 
-                <button
-                    onClick={nextSlide}
-                    className="carousel-next-button"
-                >
-                    next
-                </button>
-            </div>
+                    <button
+                        onClick={nextSlide}
+                        className="carousel-next-button"
+                    >
+                        next
+                    </button>
+                </div>
+            )}
 
             <div className="carousel-image-container">
                 <button
@@ -43,12 +43,12 @@ function Carousel({ content }) {
                     onClick={prevSlide}
                     aria-label="Previous image"
                 />
-                <button 
+                <button
                     className="carousel-invisible-next"
                     onClick={nextSlide}
                     aria-label="Next image"
                 />
-        
+
                 <img
                     id="carousel-image"
                     src={images[currentIndex].url}

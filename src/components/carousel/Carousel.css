@@ -22,12 +22,27 @@
     
 }
 
-.carousel-invisible-prev {
+/* .carousel-invisible-prev {
     left: 0;
     cursor: w-resize;
 }
 
 .carousel-invisible-next {
+    right: 0;
+    cursor: e-resize;
+} */
+
+.carousel-container:not(.has-multiple) .carousel-invisible-prev,
+.carousel-container:not(.has-multiple) .carousel-invisible-next {
+    cursor: default;
+}
+
+.carousel-container[data-multiple="true"] .carousel-invisible-prev {
+    left: 0;
+    cursor: w-resize;
+}
+
+.carousel-container[data-multiple="true"] .carousel-invisible-next {
     right: 0;
     cursor: e-resize;
 }
