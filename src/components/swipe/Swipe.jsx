@@ -17,7 +17,7 @@ function Swipe() {
             //     description: ""
             // },
             {
-                url: "https://i.ibb.co/ZWWsqqp/homeswipeweb.png",
+                url: "https://i.ibb.co/T8BMR7S/playa.png",
                 description: ""
             },
         ]
