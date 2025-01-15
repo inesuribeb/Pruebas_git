@@ -31,6 +31,16 @@ function Swipe() {
         <>
             <div className="swipe-page">
                 <div className="swipe-container">
+                    {/* <div className="first-title-main">
+                        <h1>SWIPE AGENCY</h1>
+                    </div> */}
+                    <div className="first-title-main">
+                        <h1 className="title-container">
+                            <span className="swipe-text">SWIPE</span> 
+                            {/* <br /> */}
+                            <span className="agency-text">agency</span>
+                        </h1>
+                    </div>
                     <div className="first-column-swipe">
                         <Carousel content={swipeCarousel} />
                     </div>

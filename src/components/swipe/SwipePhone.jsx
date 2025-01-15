@@ -5,7 +5,12 @@ import './SwipePhone.css';
 function SwipePhone() {
     return (
         <div>
-            <Logo url="https://i.ibb.co/wcHTqw7/13557251-143654299390676-624785656-a.jpg" />
+            {/* <Logo url="https://i.ibb.co/B4pnn9d/titulo.png" /> */}
+            <img 
+            className= "swipe-photo"
+            src="https://i.ibb.co/B4pnn9d/titulo.png" 
+            alt="" 
+            />
             <h3 className="swipe-intro">SWIPE AGENCY is a fashion representation agency based in Bilbao, promoting brands across Spain and Portugal.</h3>
             <History brandText="We are an agency specializing in the licensing, representation, marketing management, and promotion of authentic brands in Spain and Portugal. Our core values when welcoming new brands to our agency are authenticity, quality, and certified origin. " />
             <History brandText="With over 25 years of experience in the industry, we have built extensive knowledge and a respected reputation within the community. We work closely with our brands to optimize their growth and visibility, always prioritizing the best interests of both the firms we represent and the customers who choose their products. Maintaining a strong and transparent connection between the firm, agency, and client is fundamental to creating a positive and trustworthy communication framework. " />
