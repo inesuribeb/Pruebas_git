@@ -1,0 +1,1 @@
+import{j as s}from"./index-Dk1DGpuy.js";import{C as r}from"./Socials-DHmRZorZ.js";function a({brandBsContent:e}){return s.jsxs("div",{className:"brandBsContent",children:[s.jsx("h3",{className:"best-sellers-title",children:"Heritage Icons"}),s.jsx(r,{content:e})]})}export{a as B};

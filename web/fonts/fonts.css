@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'LTAfficherNeue-Subhead';
+    src: url('../fonts/LTAfficherNeue-Subhead.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InesItalic';
+    src: url('../fonts/CormorantGaramond-Italic.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InesRegular';
+    src: url('../fonts/CormorantGaramond-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InesUribe';
+    src: url('../fonts/against\ regular.ttf') format('truetype');
+    font-display: swap;
+}
