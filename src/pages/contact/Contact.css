@@ -1,4 +1,4 @@
-.contact-desktop-container {
+/* .contact-desktop-container {
     position: relative;
     background-color: #FFF093;
     min-height: 100vh;
@@ -34,7 +34,6 @@
     position: absolute;
     top: 32px;
     margin: 0px;
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 15px;
     font-weight: 200;
     letter-spacing: 0.5px;
@@ -64,8 +63,6 @@
 
 .contact-message {
     position: absolute;
-    /* left: 300px;
-    top: 200px; */
     left: 42vh;
     top:30vh;
     width: 800px;
@@ -80,5 +77,173 @@
 
 .contact-message em {
     font-style: italic;
-   }
+} */
+
+.contact-wrapper {
+    position: absolute;  /* Salir del flujo flex */
+    left: 0;
+    width: 150%;
+    min-height: 100vh;
+}
+
+.contact-desktop-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    position: relative;
+    padding: 5px;
+    width: 100%;  /* Ahora será 100% del wrapper que ya es 150% */
+    background-color: #F2ECDC;
+    color: rgb(13,40,135);
+}
+/* .contact-desktop-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh; 
+    position: relative; 
+    padding: 5px;
+    width: 150%;
+    background-color: #F2ECDC;
+    color: rgb(13,40,135);
+    overflow-x: hidden; 
+    flex-shrink: 0; 
+} */
+
+
+.first-line-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding-top: 10px; /* Para dar espacio al home button */
+    padding-left: 200px;
+}
+
+/* .second-line-center-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 2rem;
+position: relative;
+flex-shrink: 0; 
+} */
+
+.second-line-center-contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 35%;
+    padding: 20px;
+    margin-left: 200px;
+    font-size: 2rem;
+    white-space: normal; /* Permitir que el texto haga wrap */
+}
+
+.contact-message {
+    white-space: normal; /* Permitir que el texto haga wrap */
+    width: 100%;
+}
+
+.text-container {
+    width: 150%;
+    position: relative;
+    left: 0;
+    overflow: visible;
+    min-width: max-content; /* Asegurar que el contenedor se ajuste al texto */
+}
+
+
+.third-line-contact {
+    display: flex;
+    justify-content: left;
+
+    align-items: left;
+    align-items: flex-end;
+    /* width: 100%; */
+    width: 60.5%;
+    padding-bottom: 20px;
+    padding-left: 31px;
+}
+.third-line-contact h3 {
+    margin-bottom: 15px;
+}
+
+.sello {
+    margin-left: auto; 
+    align-items: flex-end;
+
+    font-size: 40px;
+    letter-spacing: 10px;
+    -webkit-text-stroke: 1px rgb(13,40,135);
+    color: transparent;
+    margin-bottom: 15px;
+}
+
+.sello p {
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+/* Mantener el home button como está */
+.home-button-container {
+    position: absolute;
+    left: 0;
+    top: 32px;
+    padding-left: 31px;
+    z-index: 20;
+}
+
+
+.home-button {
+    text-decoration: underline;
+    color: rgb(13,40,135);
+    z-index: 20;
+    text-underline-offset: 4px;
+    letter-spacing: 0.5px;
+    transform: scaleY(1.01);
+    font-family: 'InesRegular';
+}
+
+.instagram-desktop a {
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    color: rgb(13,40,135);
+}
+
+.instagram-desktop svg {
+    font-size: 18px;
+}
+
+.instagram-desktop {
+    left: 180px;
+}
+
+
+/* .contact-message {
+    overflow: hidden;
+    border-right: .15em solid transparent; 
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+} */
 

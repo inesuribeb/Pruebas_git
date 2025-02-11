@@ -4,7 +4,7 @@ import './SwipePhone.css';
 
 function SwipePhone() {
     return (
-        <div>
+        <div className="swipe-phone-container">
             {/* <Logo url="https://i.ibb.co/B4pnn9d/titulo.png" /> */}
             <img 
             className= "swipe-photo"

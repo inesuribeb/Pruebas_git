@@ -78,16 +78,16 @@
 }
 
 .email-phone {
-    padding-left: 20px;
-    font-size: 20px;
+    /* padding-left: 20px; */
+    /* font-size: 20px; */
     margin-bottom: 1rem;
     font-weight: normal;
 }
 
 .instagram-phone {
-    padding-left: 20px;
+    /* padding-left: 20px; */
 
-    font-size: 20px;
+    /* font-size: 20px; */
     font-weight: normal;
 }
 
@@ -105,3 +105,17 @@
     transform: translateY(1px);
 }
 
+
+
+.contact-info-phone {
+    display: flex;
+    flex-direction: column;
+    gap: 0px; /* Esto añade espacio entre los elementos */
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-info-phone h3 {
+    margin: 3px;
+    font-size: 20px;
+}

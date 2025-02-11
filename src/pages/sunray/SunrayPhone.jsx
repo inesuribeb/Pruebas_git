@@ -89,23 +89,23 @@ function SunrayPhone() {
     };
     return (
         <div>
-            <Logo url="https://calame-paris.com/cdn/shop/collections/Shangri-La-Heritage-logo-black-red.png?v=1652697039" />
-            <Origin brandOrigin="Bergamo, Italy" />
+            <Logo url="https://sunraysportswear.co.uk/wp-content/uploads/2020/07/Sunray_main_logo_red.png" />
+            <Origin brandOrigin="Cornwall, UK" />
             <Carrusel content={sunrayCarrusel} />
             <h3 className='history-phone-title'>History</h3>
-            <History brandText="Shangri-La Heritage is an Italian brand renowned for its commitment to crafting vintage-inspired garments that blend traditional craftsmanship with timeless design." />
+            <History brandText="Sunray Sportswear is a brand born from the frustration of not finding the perfect white t-shirt for 30 years. After a failed attempt in Portugal, they moved production to Japan, where perfection is a standard. They found a small, family-owned factory with nearly 100 years of experience, known for making uniforms for the Japanese Imperial Palace using vintage circular knitting machines." />
             <img
                 className='slp-fabric'
                 src='https://i.shgcdn.com/ce1f369c-eb74-4907-8a6e-a47a384c02c0/-/format/auto/-/preview/3000x3000/-/quality/lighter/'
                 alt='Sunray'
             />
-            <History brandText="Founded in Bergamo, the brand specializes in leather jackets and apparel, meticulously handcrafted using classic artisanal techniques and premium materials such as high-quality Italian leather and natural fabrics." />
-            <History brandText="Drawing inspiration from the aesthetics of the 1940s and 1950s, Shangri-La Heritage captures the spirit of exploration and classic motorcycling, offering garments that are both durable and full of character." />
-            <img
+            <History brandText="Convincing the family to work with a small husband and wife team was a challenge. Despite differences in fits and styles, they managed to align on their vision ofperfection, building a relationship of friendship and mutual respect." />
+            <History brandText="With their punk attitude toward traditional business models, Sunray is now stocked by influential stores worldwide." />
+            {/* <img
                 className='slp-fabric'
                 src=''
                 alt='Sunray'
-            />
+            /> */}
             <img
                 className='slp-fabric'
                 src='https://i.shgcdn.com/b4a9ea66-ccfd-4f8b-90e0-8a729f87bb0b/-/format/auto/-/preview/3000x3000/-/quality/lighter/'
@@ -117,8 +117,8 @@ function SunrayPhone() {
                 alt='Sunray'
             />
             <Socials
-                instagram="https://www.instagram.com/shangrilaheritage/"
-                website="https://shangrilaheritage.it/"
+                instagram="https://www.instagram.com/sunraysportswear/"
+                website="https://sunraysportswear.co.uk/"
             />
         </div>
     )
